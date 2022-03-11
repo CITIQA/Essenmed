@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-11T13:06:26 IST" name="Essen" finished-at="2022-03-11T13:07:31 IST" duration-ms="64793">
+    <groups>
+    </groups>
+    <test started-at="2022-03-11T13:06:26 IST" name="eCares" finished-at="2022-03-11T13:07:31 IST" duration-ms="64793">
+      <class name="com.essen.testCases.TC_TOCHospitalization_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@54e1c68b]" started-at="2022-03-11T13:06:41 IST" name="setup" finished-at="2022-03-11T13:06:44 IST" duration-ms="2820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TOCTest()[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@54e1c68b]" started-at="2022-03-11T13:06:44 IST" name="TOCTest" finished-at="2022-03-11T13:07:31 IST" duration-ms="46527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TOCTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@54e1c68b]" started-at="2022-03-11T13:07:31 IST" name="teardown" finished-at="2022-03-11T13:07:31 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.essen.testCases.TC_TOCHospitalization_004 -->
+      <class name="com.essen.testCases.TC_UserTest_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_UserTest_003@4659191b]" started-at="2022-03-11T13:06:26 IST" name="setup" finished-at="2022-03-11T13:06:30 IST" duration-ms="3613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UserTest()[pri:0, instance:com.essen.testCases.TC_UserTest_003@4659191b]" started-at="2022-03-11T13:06:30 IST" name="UserTest" description="Creation of New Users Randomly" finished-at="2022-03-11T13:06:41 IST" duration-ms="11185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_UserTest_003@4659191b]" started-at="2022-03-11T13:06:41 IST" name="teardown" finished-at="2022-03-11T13:06:41 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.essen.testCases.TC_UserTest_003 -->
+    </test> <!-- eCares -->
+  </suite> <!-- Essen -->
+</testng-results>
