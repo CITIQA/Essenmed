@@ -7,13 +7,13 @@
   <test thread-count="5" name="eCares(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.essen.testCases.TC_UserTest_003">
+      <class name="com.essen.testCases.TC_LoginTestDDT_002">
         <methods>
           <include name="teardown"/>
-          <include name="UserTest"/>
           <include name="setup"/>
+          <include name="LoginTestDDT" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.essen.testCases.TC_UserTest_003 -->
+      </class> <!-- com.essen.testCases.TC_LoginTestDDT_002 -->
     </classes>
   </test> <!-- eCares(failed) -->
 </suite> <!-- Failed suite [Essen] -->

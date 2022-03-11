@@ -249,3 +249,40 @@
 2022-03-11 13:07:01,395 - eCares -INFO - Entered into TOC page
 2022-03-11 13:07:11,109 - eCares -INFO - Clicked on DOB calender
 2022-03-11 13:07:31,230 - eCares -INFO - Test Case Passed
+2022-03-11 19:42:19,801 - eCares -INFO - URL is Accessed with the defined Browser
+2022-03-11 19:42:19,938 - eCares -INFO - Username is entered
+2022-03-11 19:42:20,033 - eCares -INFO - Password is entered
+2022-03-11 19:42:21,096 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1990)
+2022-03-11 19:42:46,578 - eCares -INFO - Login Test Passed
+2022-03-11 19:44:00,090 - eCares -INFO - URL is Accessed with the defined Browser
+2022-03-11 19:44:00,228 - eCares -INFO - Username is entered
+2022-03-11 19:44:00,316 - eCares -INFO - Password is entered
+2022-03-11 19:44:04,420 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-03-11 19:44:04,453 - eCares -INFO - Login Test Passed
+2022-03-11 19:44:19,791 - eCares -INFO - Login Test Passed
+2022-03-11 19:44:36,950 - eCares -INFO - Login Test Failed
+2022-03-11 19:44:49,723 - eCares -INFO - Login Test Failed
+2022-03-11 19:44:52,719 - eCares -INFO - Login Test Passed
+2022-03-11 19:45:02,163 - eCares -INFO - Login Successful
+2022-03-11 19:45:07,244 - eCares -INFO - Providing Users Details
+2022-03-11 19:45:12,362 - eCares -INFO - Test Case Passed
+2022-03-11 19:45:21,647 - eCares -INFO - login successfull
+2022-03-11 19:45:28,281 - eCares -INFO - Entered into TOC page
+2022-03-11 19:45:38,705 - eCares -INFO - Clicked on DOB calender
+2022-03-11 19:46:00,155 - eCares -INFO - Test Case Passed
+2022-03-11 19:49:15,706 - eCares -INFO - URL is Accessed with the defined Browser
+2022-03-11 19:49:15,833 - eCares -INFO - Username is entered
+2022-03-11 19:49:15,924 - eCares -INFO - Password is entered
+2022-03-11 19:49:18,404 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-03-11 19:49:18,435 - eCares -INFO - Login Test Passed
+2022-03-11 19:49:38,363 - eCares -INFO - Login Test Passed
+2022-03-11 19:49:55,297 - eCares -INFO - Login Test Failed
+2022-03-11 19:50:07,996 - eCares -INFO - Login Test Failed
+2022-03-11 19:50:10,958 - eCares -INFO - Login Test Passed
+2022-03-11 19:50:20,433 - eCares -INFO - Login Successful
+2022-03-11 19:50:25,503 - eCares -INFO - Providing Users Details
+2022-03-11 19:50:30,134 - eCares -INFO - Test Case Passed
+2022-03-11 19:50:39,765 - eCares -INFO - login successfull
+2022-03-11 19:50:41,266 - eCares -INFO - Entered into TOC page
+2022-03-11 19:50:51,727 - eCares -INFO - Clicked on DOB calender
+2022-03-11 19:51:11,014 - eCares -INFO - Test Case Passed

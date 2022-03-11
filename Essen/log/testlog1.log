@@ -249,3 +249,40 @@
 2022-03-11 13:07:01,395 [main] INFO eCares - Entered into TOC page
 2022-03-11 13:07:11,109 [main] INFO eCares - Clicked on DOB calender
 2022-03-11 13:07:31,230 [main] INFO eCares - Test Case Passed
+2022-03-11 19:42:19,801 [main] INFO eCares - URL is Accessed with the defined Browser
+2022-03-11 19:42:19,938 [main] INFO eCares - Username is entered
+2022-03-11 19:42:20,033 [main] INFO eCares - Password is entered
+2022-03-11 19:42:21,096 [main] INFO eCares - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1990)
+2022-03-11 19:42:46,578 [main] INFO eCares - Login Test Passed
+2022-03-11 19:44:00,090 [main] INFO eCares - URL is Accessed with the defined Browser
+2022-03-11 19:44:00,228 [main] INFO eCares - Username is entered
+2022-03-11 19:44:00,316 [main] INFO eCares - Password is entered
+2022-03-11 19:44:04,420 [main] INFO eCares - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-03-11 19:44:04,453 [main] INFO eCares - Login Test Passed
+2022-03-11 19:44:19,791 [main] INFO eCares - Login Test Passed
+2022-03-11 19:44:36,950 [main] INFO eCares - Login Test Failed
+2022-03-11 19:44:49,723 [main] INFO eCares - Login Test Failed
+2022-03-11 19:44:52,719 [main] INFO eCares - Login Test Passed
+2022-03-11 19:45:02,163 [main] INFO eCares - Login Successful
+2022-03-11 19:45:07,244 [main] INFO eCares - Providing Users Details
+2022-03-11 19:45:12,362 [main] INFO eCares - Test Case Passed
+2022-03-11 19:45:21,647 [main] INFO eCares - login successfull
+2022-03-11 19:45:28,281 [main] INFO eCares - Entered into TOC page
+2022-03-11 19:45:38,705 [main] INFO eCares - Clicked on DOB calender
+2022-03-11 19:46:00,155 [main] INFO eCares - Test Case Passed
+2022-03-11 19:49:15,706 [main] INFO eCares - URL is Accessed with the defined Browser
+2022-03-11 19:49:15,833 [main] INFO eCares - Username is entered
+2022-03-11 19:49:15,924 [main] INFO eCares - Password is entered
+2022-03-11 19:49:18,404 [main] INFO eCares - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-03-11 19:49:18,435 [main] INFO eCares - Login Test Passed
+2022-03-11 19:49:38,363 [main] INFO eCares - Login Test Passed
+2022-03-11 19:49:55,297 [main] INFO eCares - Login Test Failed
+2022-03-11 19:50:07,996 [main] INFO eCares - Login Test Failed
+2022-03-11 19:50:10,958 [main] INFO eCares - Login Test Passed
+2022-03-11 19:50:20,433 [main] INFO eCares - Login Successful
+2022-03-11 19:50:25,503 [main] INFO eCares - Providing Users Details
+2022-03-11 19:50:30,134 [main] INFO eCares - Test Case Passed
+2022-03-11 19:50:39,765 [main] INFO eCares - login successfull
+2022-03-11 19:50:41,266 [main] INFO eCares - Entered into TOC page
+2022-03-11 19:50:51,727 [main] INFO eCares - Clicked on DOB calender
+2022-03-11 19:51:11,014 [main] INFO eCares - Test Case Passed
