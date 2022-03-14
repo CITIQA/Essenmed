@@ -101,10 +101,6 @@ public class TC_PageChecker_005 extends BaseClass
 	}
 	
 	
-	
-	
-	
-	//Added by Prashant
 	@Test(description="To validate scenario of Consent>> DCE all patients")
 	public void consent()
 	{
