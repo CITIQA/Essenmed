@@ -26,12 +26,12 @@ public class TC_PageChecker_005 extends BaseClass
 		if(driver.findElement(By.xpath("//div[@class='carousel-inner mt-3']/div/img[@src='/Content/assets/images/BANNER_1.jpg']")).isDisplayed())
 		{
 			Assert.assertTrue(true);
-			logger.info("Home Page Successfully Validated!!! Login Test Passed");
+			logger.info("Home Page Successfully Validated!!! Home Page Test Case Passed");
 		}
 		else
 		{
-			captureScreen(driver,"logintest1");
-			logger.info("Login Test Failed");
+			captureScreen(driver,"Homepagechecker");
+			logger.info("Home Page Validation Failed");
 			Assert.assertTrue(false);
 		}
 	}
@@ -53,8 +53,8 @@ public class TC_PageChecker_005 extends BaseClass
 		}
 		else
 		{
-			captureScreen(driver,"logintest1");
-			logger.info("Login Test Failed");
+			captureScreen(driver,"myworklistpagechecker");
+			logger.info("My WorkList Validation Failed");
 			Assert.assertTrue(false);
 		}
 	}
@@ -74,8 +74,8 @@ public class TC_PageChecker_005 extends BaseClass
 		}
 		else
 		{
-			captureScreen(driver,"logintest1");
-			logger.info("Login Test Failed");
+			captureScreen(driver,"testpagechecker");
+			logger.info("Test Page Validation Failed");
 			Assert.assertTrue(false);
 		}
 	}
@@ -94,8 +94,8 @@ public class TC_PageChecker_005 extends BaseClass
 		}
 		else
 		{
-			captureScreen(driver,"logintest1");
-			logger.info("Login Test Failed");
+			captureScreen(driver,"medicalopenenrollpagechecker");
+			logger.info("Medical Enrollment Validation Failed");
 			Assert.assertTrue(false);
 		}
 	}
