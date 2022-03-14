@@ -95,7 +95,7 @@ public class TC_PageChecker_005 extends BaseClass
 		else
 		{
 			captureScreen(driver,"medicalopenenrollpagechecker");
-			logger.info("Medical Enrollment Validation Failed");
+			logger.info("Medicals Enrollment Validation Failed");
 			Assert.assertTrue(false);
 		}
 	}
