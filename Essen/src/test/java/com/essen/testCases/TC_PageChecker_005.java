@@ -102,13 +102,22 @@ public class TC_PageChecker_005 extends BaseClass
 	
 	
 	@Test(description="To validate scenario of Consent>> DCE all patients")
-	public void consent()
+	public void consent_DCEAllPatients() throws IOException
 	{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.id("LI_315")).click();
 		driver.findElement(By.id("LI_314")).click();
 		
-		
+		if(driver.findElement(By.xpath("//div[@class='row mb-2']//h4")).getText().contains("Patient List - DCE All Patients"))
+		{
+			Assert.assertTrue(true);
+			logger.info("Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed");
+		}
+		else {
+			captureScreen(driver, "consent_DCEAllPatients");
+			logger.info("DCE all patient validation failed");
+			Assert.assertTrue(false);
+		}
 	}
 	
 }
