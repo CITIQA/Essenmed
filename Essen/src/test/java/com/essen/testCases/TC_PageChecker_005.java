@@ -101,6 +101,18 @@ public class TC_PageChecker_005 extends BaseClass
 	}
 	
 	
-
+	
+	
+	
+	//Added by Prashant
+	@Test(description="To validate scenario of Consent>> DCE all patients")
+	public void consent()
+	{
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.findElement(By.id("LI_315")).click();
+		driver.findElement(By.id("LI_314")).click();
+		
+		
+	}
 	
 }
