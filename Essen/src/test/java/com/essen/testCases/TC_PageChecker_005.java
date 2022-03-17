@@ -119,5 +119,9 @@ public class TC_PageChecker_005 extends BaseClass
 			Assert.assertTrue(false);
 		}
 	}
+	public void consent_HHEnrollment()
+	{
+		
+	}
 	
 }
