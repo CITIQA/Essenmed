@@ -113,15 +113,13 @@ public class TC_PageChecker_005 extends BaseClass
 			Assert.assertTrue(true);
 			logger.info("Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed");
 		}
-		else {
+		else 
+		{
 			captureScreen(driver, "consent_DCEAllPatients");
 			logger.info("DCE all patient validation failed");
 			Assert.assertTrue(false);
 		}
 	}
-	public void consent_HHEnrollment()
-	{
-		
-	}
+
 	
 }
