@@ -2,11 +2,13 @@ package com.essen.testCases;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import com.essen.pageObjects.LoginPage;
 
 public class TC_PageChecker_005 extends BaseClass
@@ -59,26 +61,6 @@ public class TC_PageChecker_005 extends BaseClass
 		}
 	}
 	
-	@Test(description="To validate the scenario of Test page")
-	public void testpagechecker() throws IOException, InterruptedException 
-	{
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//li[@id='LI_58']")).click();
-		String testpage=driver.findElement(By.xpath("//a[@href='/Report/EmbedReport?menuID=442']")).getText();
-		driver.findElement(By.xpath("//a[@href='/Report/EmbedReport?menuID=442']")).click();
-		
-		if(driver.findElement(By.xpath("//div[@id='navbarSupportedContent']")).getText().contains(testpage))
-		{
-			Assert.assertTrue(true);
-			logger.info("test Page Successfully Validated!!! Login Test Passed");
-		}
-		else
-		{
-			captureScreen(driver,"testpagechecker");
-			logger.info("Test Page Validation Failed");
-			Assert.assertTrue(false);
-		}
-	}
 	
 	@Test(description="To validate the scenario of Medical open Enrollment")
 	public void medicalopenenrollpagechecker() throws IOException, InterruptedException 
@@ -87,7 +69,11 @@ public class TC_PageChecker_005 extends BaseClass
 		driver.findElement(By.xpath("//li[@id='LI_58']")).click();
 		driver.findElement(By.xpath("//a[@href='/RulesEngine/ViewPatientsForOpenEnrollment?menuID=329']")).click();
 		
-		if(driver.findElement(By.xpath("//h4[contains(text(),'Open Enrollment')]")).getText().contains("Open Enrollment"))
+		WebDriverWait wait1= new WebDriverWait(driver,30);
+		wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='btnExportCSV']")));
+		
+		
+		if(driver.findElement(By.xpath("//h4[contains(text(),'Open Enrollment')]")).getText().contains("Patient List - Medicare-Open Enrollment"))
 		{
 			Assert.assertTrue(true);
 			logger.info("Medical Enrollment Page Successfully Validated!!! Login Test Passed");
@@ -102,11 +88,15 @@ public class TC_PageChecker_005 extends BaseClass
 	
 	
 	@Test(description="To validate scenario of Consent>> DCE all patients")
-	public void consent_DCEAllPatients() throws IOException
+	public void consent_DCEAllPatients() throws IOException, InterruptedException
 	{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.id("LI_315")).click();
 		driver.findElement(By.id("LI_314")).click();
+		
+		WebDriverWait wait1= new WebDriverWait(driver,30);
+		wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='Eligible – Not Enrolled']")));
+		
 		
 		if(driver.findElement(By.xpath("//div[@class='row mb-2']//h4")).getText().contains("Patient List - DCE All Patients"))
 		{
