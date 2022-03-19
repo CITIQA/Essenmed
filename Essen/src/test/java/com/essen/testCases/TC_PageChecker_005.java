@@ -14,7 +14,7 @@ import com.essen.pageObjects.LoginPage;
 public class TC_PageChecker_005 extends BaseClass
 {
 	
-	@Test(description="To validate the scenario of Home Page")
+	@Test(description="To validate the scenario of Home Page",priority = 1)
 	public void Homepagechecker() throws IOException 
 	{
 		LoginPage lp= new LoginPage(driver);
@@ -38,16 +38,15 @@ public class TC_PageChecker_005 extends BaseClass
 		}
 	}
 	
-	@Test(description="To validate the scenario of My Worklist")
+	@Test(description="To validate the scenario of My Worklist",priority = 2)
 	public void myworklistpagechecker() throws IOException, InterruptedException 
 	{
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		String myworklist=driver.findElement(By.xpath("//a[@href='/RulesEngine/SmartSchedulingRules?menuID=246']")).getText();
-		driver.findElement(By.xpath("//a[@href='/RulesEngine/SmartSchedulingRules?menuID=246']")).click();
+		String myworklist=driver.findElement(By.xpath("//li[@id='LI_246']/a/p")).getText();
+		driver.findElement(By.xpath("//li[@id='LI_246']/a/p")).click();
 		
-		WebDriverWait wait= new WebDriverWait(driver,10);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h4[contains(text(),'My Work List')]")));
-		
+		WebDriverWait worklistwait= new WebDriverWait(driver,30);
+		worklistwait.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@name='SmartScheduleCategoryID']")));
+				
 		if(driver.findElement(By.xpath("//h4[contains(text(),'My Work List')]")).getText().contains(myworklist))
 		{
 			Assert.assertTrue(true);
@@ -62,7 +61,7 @@ public class TC_PageChecker_005 extends BaseClass
 	}
 	
 	
-	@Test(description="To validate the scenario of Medical open Enrollment")
+	@Test(description="To validate the scenario of Medical open Enrollment",priority = 3)
 	public void medicalopenenrollpagechecker() throws IOException, InterruptedException 
 	{
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -87,7 +86,7 @@ public class TC_PageChecker_005 extends BaseClass
 	}
 	
 	
-	@Test(description="To validate scenario of Consent>> DCE all patients")
+	@Test(description="To validate scenario of Consent>> DCE all patients",priority = 4)
 	public void consent_DCEAllPatients() throws IOException, InterruptedException
 	{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
