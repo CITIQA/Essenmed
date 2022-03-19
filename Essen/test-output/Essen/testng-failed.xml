@@ -7,13 +7,15 @@
   <test thread-count="5" name="eCares(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.essen.testCases.TC_LoginTestDDT_002">
+      <class name="com.essen.testCases.TC_PageChecker_005">
         <methods>
+          <include name="testpagechecker"/>
           <include name="teardown"/>
+          <include name="medicalopenenrollpagechecker"/>
           <include name="setup"/>
-          <include name="LoginTestDDT" invocation-numbers="1 2"/>
+          <include name="myworklistpagechecker"/>
         </methods>
-      </class> <!-- com.essen.testCases.TC_LoginTestDDT_002 -->
+      </class> <!-- com.essen.testCases.TC_PageChecker_005 -->
     </classes>
   </test> <!-- eCares(failed) -->
 </suite> <!-- Failed suite [Essen] -->
