@@ -10,6 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.essen.pageObjects.LoginPage;
+import com.essen.pageObjects.MenuList;
 
 public class TC_PageChecker_005 extends BaseClass {
 
@@ -36,7 +37,26 @@ public class TC_PageChecker_005 extends BaseClass {
 		}
 	}
 
-	@Test(description = "To validate the scenario of Medical open Enrollment", priority = 4)
+	@Test(description = "To validate the scenario of My Worklist", priority = 2)
+	public void myworklistpagechecker() throws IOException, InterruptedException {
+		String myworklist = driver.findElement(By.xpath("//li[@id='LI_246']/a/p")).getText();
+		driver.findElement(By.xpath("//li[@id='LI_246']/a/p")).click();
+
+		WebDriverWait worklistwait = new WebDriverWait(driver, 30);
+		worklistwait
+				.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@name='SmartScheduleCategoryID']")));
+
+		if (driver.findElement(By.xpath("//h4[contains(text(),'My Work List')]")).getText().contains(myworklist)) {
+			Assert.assertTrue(true);
+			logger.info("My WorkList Page Successfully Validated!!! Login Test Passed");
+		} else {
+			captureScreen(driver, "myworklistpagechecker");
+			logger.info("My WorkList Validation Failed");
+			Assert.assertTrue(false);
+		}
+	}
+
+	@Test(description = "To validate the scenario of Medical open Enrollment", priority = 3)
 	public void medicalopenenrollpagechecker() throws IOException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//li[@id='LI_58']")).click();
@@ -56,12 +76,16 @@ public class TC_PageChecker_005 extends BaseClass {
 		}
 	}
 
-	@Test(description = "To validate scenario of Consent>> DCE all patients", priority = 3)
+	@Test(description = "To validate scenario of Consent>> DCE all patients", priority = 4)
 	public void consent_DCEAllPatients() throws IOException, InterruptedException {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.findElement(By.id("LI_315")).click();
-		driver.findElement(By.id("LI_314")).click();
-
+		/*
+		 * driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		 * driver.findElement(By.id("LI_315")).click();
+		 * driver.findElement(By.id("LI_314")).click();
+		 */
+		MenuList menu=new MenuList(driver);
+		menu.clickConsentMenu();
+		menu.clickDce_AllPatients();
 		logger.info("Invisibility element STARTS");
 		WebDriverWait wait2 = new WebDriverWait(driver, 15);
 		wait2.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
@@ -81,22 +105,25 @@ public class TC_PageChecker_005 extends BaseClass {
 		}
 	}
 
-	@Test(description = "To validate the scenario of My Worklist", priority = 2)
-	public void myworklistpagechecker() throws IOException, InterruptedException {
-		String myworklist = driver.findElement(By.xpath("//li[@id='LI_246']/a/p")).getText();
-		driver.findElement(By.xpath("//li[@id='LI_246']/a/p")).click();
-
-		WebDriverWait worklistwait = new WebDriverWait(driver, 30);
-		worklistwait
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@name='SmartScheduleCategoryID']")));
-
-		if (driver.findElement(By.xpath("//h4[contains(text(),'My Work List')]")).getText().contains(myworklist)) {
+	@Test(description="To validate scenario of Consent>>HH_EligiblePatients", priority=5)
+	public void HH_EligiblePatients() throws Exception
+	{
+		MenuList menu=new MenuList(driver);
+		menu.clickHhEligiblePatients();
+		
+		WebDriverWait wait=new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@id='HHConsentStatus']")));
+		
+		if(driver.findElement(By.xpath("//div[@class=\"col-sm-6\"]//h4")).getText().contains("Patient List - Health Home All Patients"))
+		{
 			Assert.assertTrue(true);
-			logger.info("My WorkList Page Successfully Validated!!! Login Test Passed");
-		} else {
-			captureScreen(driver, "myworklistpagechecker");
-			logger.info("My WorkList Validation Failed");
+			logger.info("Patient List - Health Home All Patients page Successfully Validated");
+		}
+		else
+		{
+			captureScreen(driver, "HH_EligiblePatients");
 			Assert.assertTrue(false);
+			logger.info("Patient List - Health Home All Patients validation Failed");
 		}
 	}
 

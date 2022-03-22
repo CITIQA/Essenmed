@@ -306,3 +306,118 @@
 2022-03-11 19:59:45,963 - eCares -INFO - Entered into TOC page
 2022-03-11 19:59:59,204 - eCares -INFO - Clicked on DOB calender
 2022-03-11 20:00:18,115 - eCares -INFO - Test Case Passed
+2022-03-21 12:23:50,163 - eCares -INFO - Login Successful
+2022-03-21 12:23:50,209 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:23:52,278 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:39:57,415 - eCares -INFO - Login Successful
+2022-03-21 12:39:57,468 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:40:01,162 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:41:06,051 - eCares -INFO - Login Successful
+2022-03-21 12:41:06,107 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:41:07,865 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:42:09,941 - eCares -INFO - Login Successful
+2022-03-21 12:42:09,995 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:42:11,804 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:44:07,608 - eCares -INFO - Login Successful
+2022-03-21 12:44:07,658 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:44:09,137 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:44:10,818 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:45:20,278 - eCares -INFO - Login Successful
+2022-03-21 12:45:20,327 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:45:21,611 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:45:23,065 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:50:41,940 - eCares -INFO - Login Successful
+2022-03-21 12:50:41,989 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:50:43,490 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:50:45,103 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:53:31,071 - eCares -INFO - Login Successful
+2022-03-21 12:53:31,119 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:53:32,421 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:53:49,268 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:54:36,447 - eCares -INFO - Login Successful
+2022-03-21 12:54:36,494 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:54:38,190 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:54:45,275 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:56:12,844 - eCares -INFO - Login Successful
+2022-03-21 12:56:12,902 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:56:14,420 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:56:16,044 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:56:32,499 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:58:04,449 - eCares -INFO - Login Successful
+2022-03-21 12:58:04,499 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 12:58:05,833 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:58:07,477 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 12:58:23,938 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:02:08,407 - eCares -INFO - Login Successful
+2022-03-21 13:02:08,466 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 13:02:10,076 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:02:11,733 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:05:59,317 - eCares -INFO - Login Successful
+2022-03-21 13:05:59,371 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 13:06:01,020 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:06:02,773 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:06:03,015 - eCares -INFO - DCE>> Element is clickable
+2022-03-21 13:07:57,221 - eCares -INFO - Login Successful
+2022-03-21 13:07:57,272 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 13:07:58,625 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:08:00,566 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:08:00,695 - eCares -INFO - DCE>> Element is clickable
+2022-03-21 13:14:04,095 - eCares -INFO - Login Successful
+2022-03-21 13:14:04,146 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 13:14:05,606 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:14:07,109 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:14:07,110 - eCares -INFO - Invisibility element STARTS
+2022-03-21 13:14:28,908 - eCares -INFO - Invisibility element DONE
+2022-03-21 13:14:30,851 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:15:44,854 - eCares -INFO - Login Successful
+2022-03-21 13:15:44,918 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 13:15:46,287 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:15:48,727 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:15:48,728 - eCares -INFO - Invisibility element STARTS
+2022-03-21 13:16:13,291 - eCares -INFO - Invisibility element DONE
+2022-03-21 13:16:15,490 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:17:05,365 - eCares -INFO - Login Successful
+2022-03-21 13:17:05,431 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 13:17:06,945 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:17:08,779 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:17:08,779 - eCares -INFO - Invisibility element STARTS
+2022-03-21 13:18:15,284 - eCares -INFO - Login Successful
+2022-03-21 13:18:15,358 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 13:18:16,826 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:18:18,527 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:18:18,528 - eCares -INFO - Invisibility element STARTS
+2022-03-21 13:18:39,908 - eCares -INFO - Invisibility element DONE
+2022-03-21 13:18:41,515 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:24:04,677 - eCares -INFO - Login Successful
+2022-03-21 13:24:04,744 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-21 13:24:06,554 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:24:07,791 - eCares -INFO - Invisibility element STARTS
+2022-03-21 13:24:31,834 - eCares -INFO - Invisibility element DONE
+2022-03-21 13:24:31,903 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-21 13:24:33,434 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-22 13:00:50,227 - eCares -INFO - Login Successful
+2022-03-22 13:00:50,277 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-22 13:00:52,247 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-22 13:00:55,823 - eCares -INFO - Invisibility element STARTS
+2022-03-22 13:01:18,793 - eCares -INFO - Invisibility element DONE
+2022-03-22 13:01:18,851 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-22 13:01:20,829 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-22 13:15:42,769 - eCares -INFO - Login Successful
+2022-03-22 13:15:42,841 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-22 13:15:44,392 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-22 13:15:45,971 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-22 13:21:20,494 - eCares -INFO - Login Successful
+2022-03-22 13:21:20,561 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-22 13:21:23,319 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-22 13:21:26,353 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-22 13:21:30,092 - eCares -INFO - Invisibility element STARTS
+2022-03-22 13:21:52,982 - eCares -INFO - Invisibility element DONE
+2022-03-22 13:21:53,037 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-22 14:16:25,513 - eCares -INFO - Login Successful
+2022-03-22 14:16:25,565 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-22 14:16:28,554 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-22 14:16:30,437 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-22 14:16:33,414 - eCares -INFO - Invisibility element STARTS
+2022-03-22 14:16:56,936 - eCares -INFO - Invisibility element DONE
+2022-03-22 14:16:56,996 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-22 14:16:59,165 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated

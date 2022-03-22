@@ -9,11 +9,8 @@
     <classes>
       <class name="com.essen.testCases.TC_PageChecker_005">
         <methods>
-          <include name="testpagechecker"/>
-          <include name="teardown"/>
-          <include name="medicalopenenrollpagechecker"/>
+          <include name="consent_DCEAllPatients"/>
           <include name="setup"/>
-          <include name="myworklistpagechecker"/>
         </methods>
       </class> <!-- com.essen.testCases.TC_PageChecker_005 -->
     </classes>
