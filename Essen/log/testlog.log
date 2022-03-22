@@ -421,3 +421,52 @@
 2022-03-22 14:16:56,936 - eCares -INFO - Invisibility element DONE
 2022-03-22 14:16:56,996 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
 2022-03-22 14:16:59,165 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-03-22 16:36:01,219 - eCares -INFO - Login Successful
+2022-03-22 16:36:01,289 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-22 16:36:03,207 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-22 16:36:06,729 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-22 16:41:32,092 - eCares -INFO - Login Successful
+2022-03-22 16:41:32,163 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-22 16:41:33,792 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-22 16:41:46,164 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-22 16:41:48,008 - eCares -INFO - Invisibility element STARTS
+2022-03-22 16:42:11,314 - eCares -INFO - Invisibility element DONE
+2022-03-22 16:42:11,380 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-22 16:42:13,224 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-03-22 16:42:48,478 - eCares -INFO - URL is Accessed with the defined Browser
+2022-03-22 16:42:48,605 - eCares -INFO - Username is entered
+2022-03-22 16:42:48,691 - eCares -INFO - Password is entered
+2022-03-22 16:42:50,976 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-03-22 16:42:51,009 - eCares -INFO - Login Test Passed
+2022-03-22 16:44:03,068 - eCares -INFO - URL is Accessed with the defined Browser
+2022-03-22 16:44:03,216 - eCares -INFO - Username is entered
+2022-03-22 16:44:03,317 - eCares -INFO - Password is entered
+2022-03-22 16:44:05,726 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-03-22 16:44:05,765 - eCares -INFO - Login Test Passed
+2022-03-22 16:44:19,476 - eCares -INFO - Login Test Passed
+2022-03-22 16:44:36,456 - eCares -INFO - Login Test Failed
+2022-03-22 16:44:49,009 - eCares -INFO - Login Test Failed
+2022-03-22 16:48:00,738 - eCares -INFO - URL is Accessed with the defined Browser
+2022-03-22 16:48:00,863 - eCares -INFO - Username is entered
+2022-03-22 16:48:00,953 - eCares -INFO - Password is entered
+2022-03-22 16:48:03,403 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-03-22 16:48:03,444 - eCares -INFO - Login Test Passed
+2022-03-22 16:48:18,798 - eCares -INFO - Login Test Passed
+2022-03-22 16:48:35,691 - eCares -INFO - Login Test Failed
+2022-03-22 16:48:50,676 - eCares -INFO - Login Test Failed
+2022-03-22 16:48:53,993 - eCares -INFO - Login Test Passed
+2022-03-22 16:49:03,365 - eCares -INFO - Login Successful
+2022-03-22 16:49:08,244 - eCares -INFO - Providing Users Details
+2022-03-22 16:49:13,346 - eCares -INFO - Test Case Passed
+2022-03-22 16:49:22,269 - eCares -INFO - login successfull
+2022-03-22 16:49:28,529 - eCares -INFO - Entered into TOC page
+2022-03-22 16:49:38,811 - eCares -INFO - Clicked on DOB calender
+2022-03-22 16:49:57,769 - eCares -INFO - Test Case Passed
+2022-03-22 16:50:03,103 - eCares -INFO - Login Successful
+2022-03-22 16:50:03,137 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-22 16:50:04,790 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-22 16:50:17,591 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-22 16:50:19,608 - eCares -INFO - Invisibility element STARTS
+2022-03-22 16:50:42,656 - eCares -INFO - Invisibility element DONE
+2022-03-22 16:50:42,751 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-22 16:50:44,752 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
