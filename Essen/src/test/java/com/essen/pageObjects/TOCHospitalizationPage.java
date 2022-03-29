@@ -29,11 +29,11 @@ public class TOCHospitalizationPage {
 	@CacheLookup
 	WebElement postAcuteCareMenu;
 	
-	@FindBy(xpath="//li[@id=\"LI_165\"]//p[contains(text(),\"TOC\")]")
+	@FindBy(xpath="//li[@id='LI_165']")
 	@CacheLookup
 	WebElement TOCMenu;
 	
-	@FindBy(xpath="//a[@title=\"Create a new Hospitalization for the Patient\"]")
+	@FindBy(xpath="//a[@title='Create a new Hospitalization for the Patient']")
 	@CacheLookup
 	WebElement NewHospitalization;
 	

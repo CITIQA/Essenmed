@@ -28,6 +28,10 @@ public class TC_TOCHospitalization_004 extends BaseClass{
 		toc.ClickeCaresMenu();
 		toc.clickPostAcuteCareMenu();
 		toc.clickTOCMenu();
+		
+		WebDriverWait newhospitalizationwaits= new WebDriverWait(driver, 20);
+		newhospitalizationwaits.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Create a new Hospitalization for the Patient']")));
+		
 		logger.info("Entered into TOC page");
 		toc.clickNewHospitalization();
 		toc.selectPatientStatus();

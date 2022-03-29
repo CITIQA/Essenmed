@@ -60,7 +60,7 @@ public class TC_PageChecker_005 extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//li[@id='LI_58']")).click();
 		driver.findElement(By.xpath("//a[@href='/RulesEngine/ViewPatientsForOpenEnrollment?menuID=329']")).click();
-		
+
 		WebDriverWait wait2 = new WebDriverWait(driver, 15);
 		wait2.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
 
