@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-22T16:47:53 IST" name="Essen" finished-at="2022-03-22T16:50:44 IST" duration-ms="171808">
+  <suite started-at="2022-03-29T11:05:55 IST" name="Essen" finished-at="2022-03-29T11:08:26 IST" duration-ms="151658">
     <groups>
     </groups>
-    <test started-at="2022-03-22T16:47:53 IST" name="eCares" finished-at="2022-03-22T16:50:44 IST" duration-ms="171808">
+    <test started-at="2022-03-29T11:05:55 IST" name="eCares" finished-at="2022-03-29T11:08:26 IST" duration-ms="151658">
       <class name="com.essen.testCases.TC_LoginTestDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-22T16:48:04 IST" name="setup" finished-at="2022-03-22T16:48:07 IST" duration-ms="2709" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-29T11:06:11 IST" name="setup" finished-at="2022-03-29T11:06:14 IST" duration-ms="3291" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-22T16:48:07 IST" name="LoginTestDDT" description="Login with Multiple Users" data-provider="LoginData" finished-at="2022-03-22T16:48:22 IST" duration-ms="15116" status="PASS">
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-29T11:06:15 IST" name="LoginTestDDT" description="Login with Multiple Users" data-provider="LoginData" finished-at="2022-03-29T11:06:31 IST" duration-ms="15609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestDDT -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-22T16:48:23 IST" name="LoginTestDDT" description="Login with Multiple Users" data-provider="LoginData" finished-at="2022-03-22T16:48:35 IST" duration-ms="12692" status="FAIL">
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-29T11:06:31 IST" name="LoginTestDDT" description="Login with Multiple Users" data-provider="LoginData" finished-at="2022-03-29T11:06:44 IST" duration-ms="12810" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestDDT -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-22T16:48:35 IST" name="LoginTestDDT" description="Login with Multiple Users" data-provider="LoginData" finished-at="2022-03-22T16:48:50 IST" duration-ms="14981" status="FAIL">
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-29T11:06:44 IST" name="LoginTestDDT" description="Login with Multiple Users" data-provider="LoginData" finished-at="2022-03-29T11:06:56 IST" duration-ms="12646" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -150,7 +150,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestDDT -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-22T16:48:50 IST" name="LoginTestDDT" description="Login with Multiple Users" data-provider="LoginData" finished-at="2022-03-22T16:48:58 IST" duration-ms="7402" status="PASS">
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-29T11:06:56 IST" name="LoginTestDDT" description="Login with Multiple Users" data-provider="LoginData" finished-at="2022-03-29T11:07:03 IST" duration-ms="6713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,13 +166,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-22T16:48:58 IST" name="teardown" finished-at="2022-03-22T16:48:58 IST" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_LoginTestDDT_002@4d5650ae]" started-at="2022-03-29T11:07:03 IST" name="teardown" finished-at="2022-03-29T11:07:03 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.essen.testCases.TC_LoginTestDDT_002 -->
       <class name="com.essen.testCases.TC_TOCHospitalization_004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@7b36aa0c]" started-at="2022-03-22T16:49:13 IST" name="setup" finished-at="2022-03-22T16:49:16 IST" duration-ms="2723" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@7b36aa0c]" started-at="2022-03-29T11:07:19 IST" name="setup" finished-at="2022-03-29T11:07:22 IST" duration-ms="3333" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,17 +183,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TOCTest()[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@7b36aa0c]" started-at="2022-03-22T16:49:16 IST" name="TOCTest" finished-at="2022-03-22T16:49:57 IST" duration-ms="41545" status="PASS">
+        <test-method signature="TOCTest()[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@7b36aa0c]" started-at="2022-03-29T11:07:22 IST" name="TOCTest" finished-at="2022-03-29T11:07:50 IST" duration-ms="27612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TOCTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@7b36aa0c]" started-at="2022-03-22T16:49:57 IST" name="teardown" finished-at="2022-03-22T16:49:57 IST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_TOCHospitalization_004@7b36aa0c]" started-at="2022-03-29T11:07:50 IST" name="teardown" finished-at="2022-03-29T11:07:50 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.essen.testCases.TC_TOCHospitalization_004 -->
       <class name="com.essen.testCases.TC_UserTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_UserTest_003@a38c7fe]" started-at="2022-03-22T16:48:58 IST" name="setup" finished-at="2022-03-22T16:49:00 IST" duration-ms="2723" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_UserTest_003@a38c7fe]" started-at="2022-03-29T11:07:03 IST" name="setup" finished-at="2022-03-29T11:07:07 IST" duration-ms="3317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,17 +204,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="UserTest()[pri:0, instance:com.essen.testCases.TC_UserTest_003@a38c7fe]" started-at="2022-03-22T16:49:00 IST" name="UserTest" description="Creation of New Users Randomly" finished-at="2022-03-22T16:49:13 IST" duration-ms="12445" status="PASS">
+        <test-method signature="UserTest()[pri:0, instance:com.essen.testCases.TC_UserTest_003@a38c7fe]" started-at="2022-03-29T11:07:07 IST" name="UserTest" description="Creation of New Users Randomly" finished-at="2022-03-29T11:07:18 IST" duration-ms="11790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_UserTest_003@a38c7fe]" started-at="2022-03-22T16:49:13 IST" name="teardown" finished-at="2022-03-22T16:49:13 IST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_UserTest_003@a38c7fe]" started-at="2022-03-29T11:07:18 IST" name="teardown" finished-at="2022-03-29T11:07:19 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.essen.testCases.TC_UserTest_003 -->
       <class name="com.essen.testCases.TC_PageChecker_005">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-22T16:49:57 IST" name="setup" finished-at="2022-03-22T16:50:00 IST" duration-ms="2705" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-29T11:07:50 IST" name="setup" finished-at="2022-03-29T11:07:53 IST" duration-ms="3443" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -225,33 +225,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Homepagechecker()[pri:1, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-22T16:50:00 IST" name="Homepagechecker" description="To validate the scenario of Home Page" finished-at="2022-03-22T16:50:03 IST" duration-ms="2466" status="PASS">
+        <test-method signature="Homepagechecker()[pri:1, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-29T11:07:53 IST" name="Homepagechecker" description="To validate the scenario of Home Page" finished-at="2022-03-29T11:07:56 IST" duration-ms="2666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Homepagechecker -->
-        <test-method signature="myworklistpagechecker()[pri:2, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-22T16:50:03 IST" name="myworklistpagechecker" description="To validate the scenario of My Worklist" finished-at="2022-03-22T16:50:04 IST" duration-ms="1651" status="PASS">
+        <test-method signature="myworklistpagechecker()[pri:2, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-29T11:07:56 IST" name="myworklistpagechecker" description="To validate the scenario of My Worklist" finished-at="2022-03-29T11:07:57 IST" duration-ms="1147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myworklistpagechecker -->
-        <test-method signature="medicalopenenrollpagechecker()[pri:3, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-22T16:50:04 IST" name="medicalopenenrollpagechecker" description="To validate the scenario of Medical open Enrollment" finished-at="2022-03-22T16:50:17 IST" duration-ms="12800" status="PASS">
+        <test-method signature="medicalopenenrollpagechecker()[pri:3, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-29T11:07:57 IST" name="medicalopenenrollpagechecker" description="To validate the scenario of Medical open Enrollment" finished-at="2022-03-29T11:08:09 IST" duration-ms="12452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- medicalopenenrollpagechecker -->
-        <test-method signature="consent_DCEAllPatients()[pri:4, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-22T16:50:17 IST" name="consent_DCEAllPatients" description="To validate scenario of Consent&gt;&gt; DCE all patients" finished-at="2022-03-22T16:50:42 IST" duration-ms="25159" status="PASS">
+        <test-method signature="consent_DCEAllPatients()[pri:4, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-29T11:08:09 IST" name="consent_DCEAllPatients" description="To validate scenario of Consent&gt;&gt; DCE all patients" finished-at="2022-03-29T11:08:24 IST" duration-ms="14973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- consent_DCEAllPatients -->
-        <test-method signature="HH_EligiblePatients()[pri:5, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-22T16:50:42 IST" name="HH_EligiblePatients" description="To validate scenario of Consent&gt;&gt;HH_EligiblePatients" finished-at="2022-03-22T16:50:44 IST" duration-ms="1999" status="PASS">
+        <test-method signature="HH_EligiblePatients()[pri:5, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-29T11:08:24 IST" name="HH_EligiblePatients" description="To validate scenario of Consent&gt;&gt;HH_EligiblePatients" finished-at="2022-03-29T11:08:26 IST" duration-ms="1500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HH_EligiblePatients -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-22T16:50:44 IST" name="teardown" finished-at="2022-03-22T16:50:44 IST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_PageChecker_005@5677323c]" started-at="2022-03-29T11:08:26 IST" name="teardown" finished-at="2022-03-29T11:08:26 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.essen.testCases.TC_PageChecker_005 -->
       <class name="com.essen.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTest_001@4f80542f]" started-at="2022-03-22T16:47:53 IST" name="setup" finished-at="2022-03-22T16:48:00 IST" duration-ms="7455" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_LoginTest_001@4f80542f]" started-at="2022-03-29T11:05:55 IST" name="setup" finished-at="2022-03-29T11:06:00 IST" duration-ms="5220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,11 +262,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest1()[pri:0, instance:com.essen.testCases.TC_LoginTest_001@4f80542f]" started-at="2022-03-22T16:48:00 IST" name="logintest1" description="To check whether user was able to Login to the Page or Not with single User" finished-at="2022-03-22T16:48:04 IST" duration-ms="3774" status="PASS">
+        <test-method signature="logintest1()[pri:0, instance:com.essen.testCases.TC_LoginTest_001@4f80542f]" started-at="2022-03-29T11:06:00 IST" name="logintest1" description="To check whether user was able to Login to the Page or Not with single User" finished-at="2022-03-29T11:06:11 IST" duration-ms="10965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_LoginTest_001@4f80542f]" started-at="2022-03-22T16:48:04 IST" name="teardown" finished-at="2022-03-22T16:48:04 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_LoginTest_001@4f80542f]" started-at="2022-03-29T11:06:11 IST" name="teardown" finished-at="2022-03-29T11:06:11 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

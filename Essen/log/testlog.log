@@ -470,3 +470,27 @@
 2022-03-22 16:50:42,656 - eCares -INFO - Invisibility element DONE
 2022-03-22 16:50:42,751 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
 2022-03-22 16:50:44,752 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-03-29 11:06:00,490 - eCares -INFO - URL is Accessed with the defined Browser
+2022-03-29 11:06:00,689 - eCares -INFO - Username is entered
+2022-03-29 11:06:00,813 - eCares -INFO - Password is entered
+2022-03-29 11:06:10,648 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-03-29 11:06:10,705 - eCares -INFO - Login Test Passed
+2022-03-29 11:06:27,537 - eCares -INFO - Login Test Passed
+2022-03-29 11:06:44,114 - eCares -INFO - Login Test Failed
+2022-03-29 11:06:56,768 - eCares -INFO - Login Test Failed
+2022-03-29 11:06:59,744 - eCares -INFO - Login Test Passed
+2022-03-29 11:07:09,840 - eCares -INFO - Login Successful
+2022-03-29 11:07:14,029 - eCares -INFO - Providing Users Details
+2022-03-29 11:07:18,741 - eCares -INFO - Test Case Passed
+2022-03-29 11:07:28,264 - eCares -INFO - login successfull
+2022-03-29 11:07:29,904 - eCares -INFO - Entered into TOC page
+2022-03-29 11:07:39,947 - eCares -INFO - Clicked on DOB calender
+2022-03-29 11:07:49,965 - eCares -INFO - Test Case Passed
+2022-03-29 11:07:56,296 - eCares -INFO - Login Successful
+2022-03-29 11:07:56,355 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-03-29 11:07:57,505 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-03-29 11:08:09,959 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-03-29 11:08:11,458 - eCares -INFO - Invisibility element STARTS
+2022-03-29 11:08:24,829 - eCares -INFO - Invisibility element DONE
+2022-03-29 11:08:24,934 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-03-29 11:08:26,436 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
