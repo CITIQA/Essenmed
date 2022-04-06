@@ -21,7 +21,6 @@ public class TC_PageChecker_005 extends BaseClass {
 		lp.setSignin();
 		logger.info("Login Successful");
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		if (driver
 				.findElement(By.xpath(
@@ -121,5 +120,9 @@ public class TC_PageChecker_005 extends BaseClass {
 			logger.info("Patient List - Health Home All Patients validation Failed");
 		}
 	}
+	
+	//---------------------------Power BI Dashboards Checker----------------------------------------------------------------------
+	
+
 
 }
