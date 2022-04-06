@@ -33,6 +33,17 @@ public class MenuList
 		@CacheLookup
 		WebElement rhioConsent;
 		
+		@FindBy(id="LI_316")
+		@CacheLookup
+		WebElement ChronicCareManagemnt;
+		
+		@FindBy(id="LI_310")
+		@CacheLookup
+		WebElement ccmAllPatients;
+		
+		@FindBy(id="LI_337")
+		@CacheLookup
+		WebElement ccmDashboard;
 		
 		public void clickConsentMenu()
 		{
@@ -50,6 +61,15 @@ public class MenuList
 		{
 			rhioConsent.click();
 		}
-	
+		
+		public void clickCcmAllPatients()
+		{
+			ChronicCareManagemnt.click();
+			ccmAllPatients.click();
+		}
+		public void clickCcmDashboard()
+		{
+			ccmDashboard.click();
+		}
 	
 }
