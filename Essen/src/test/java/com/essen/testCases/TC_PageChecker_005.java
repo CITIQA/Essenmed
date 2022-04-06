@@ -7,6 +7,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
 import com.essen.pageObjects.LoginPage;
 import com.essen.pageObjects.MenuList;
 
@@ -19,18 +21,22 @@ public class TC_PageChecker_005 extends BaseClass {
 		lp.setPassword(password);
 		lp.setSignin();
 		logger.info("Login Successful");
-
+		SoftAssert softasserts= new SoftAssert();
 
 		if (driver
 				.findElement(By.xpath(
 						"//div[@class='carousel-inner mt-3']/div/img[@src='/Content/assets/images/BANNER_1.jpg']"))
 				.isDisplayed()) {
-			Assert.assertTrue(true);
+			
+			softasserts.assertTrue(true);
 			logger.info("Home Page Successfully Validated!!! Home Page Test Case Passed");
+			softasserts.assertAll();
 		} else {
+			softasserts.assertTrue(false);
 			captureScreen(driver, "Homepagechecker");
 			logger.info("Home Page Validation Failed");
-			Assert.assertTrue(false);
+			softasserts.assertAll();
+			
 		}
 	}
 
@@ -38,18 +44,22 @@ public class TC_PageChecker_005 extends BaseClass {
 	public void myworklistpagechecker() throws IOException, InterruptedException {
 		String myworklist = driver.findElement(By.xpath("//li[@id='LI_246']/a/p")).getText();
 		driver.findElement(By.xpath("//li[@id='LI_246']/a/p")).click();
+		SoftAssert softasserts= new SoftAssert();
 
 		WebDriverWait worklistwait = new WebDriverWait(driver, 30);
 		worklistwait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@name='SmartScheduleCategoryID']")));
 
 		if (driver.findElement(By.xpath("//h4[contains(text(),'My Work List')]")).getText().contains(myworklist)) {
-			Assert.assertTrue(true);
+			softasserts.assertTrue(true);
 			logger.info("My WorkList Page Successfully Validated!!! Login Test Passed");
+			softasserts.assertAll();
+
 		} else {
+			softasserts.assertTrue(false);
 			captureScreen(driver, "myworklistpagechecker");
 			logger.info("My WorkList Validation Failed");
-			Assert.assertTrue(false);
+			softasserts.assertAll();
 		}
 	}
 
@@ -58,18 +68,21 @@ public class TC_PageChecker_005 extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//li[@id='LI_58']")).click();
 		driver.findElement(By.xpath("//a[@href='/RulesEngine/ViewPatientsForOpenEnrollment?menuID=329']")).click();
+		SoftAssert softasserts= new SoftAssert();
 
 		WebDriverWait wait1 = new WebDriverWait(driver, 30);
 		wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='btnExportCSV']")));
 
 		if (driver.findElement(By.xpath("//h4[contains(text(),'Open Enrollment')]")).getText()
 				.contains("Patient List - Medicare-Open Enrollment")) {
-			Assert.assertTrue(true);
+			softasserts.assertTrue(true);
 			logger.info("Medical Enrollment Page Successfully Validated!!! Login Test Passed");
+			softasserts.assertAll();
 		} else {
+			softasserts.assertTrue(false);
 			captureScreen(driver, "medicalopenenrollpagechecker");
 			logger.info("Medical Enrollment Validation Failed");
-			Assert.assertTrue(false);
+			softasserts.assertAll();
 		}
 		WebDriverWait wait3 = new WebDriverWait(driver, 10);
 		wait3.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
@@ -90,15 +103,18 @@ public class TC_PageChecker_005 extends BaseClass {
 
 		WebDriverWait wait1 = new WebDriverWait(driver, 30);
 		wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='Eligible – Not Enrolled']")));
+		SoftAssert softasserts= new SoftAssert();
 
 		if (driver.findElement(By.xpath("//div[@class='row mb-2']//h4")).getText()
 				.contains("Patient List - DCE All Patients")) {
-			Assert.assertTrue(true);
+			softasserts.assertTrue(true);
 			logger.info("Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed");
+			softasserts.assertAll();
 		} else {
+			softasserts.assertTrue(false);
 			captureScreen(driver, "consent_DCEAllPatients");
 			logger.info("DCE all patient validation failed");
-			Assert.assertTrue(false);
+			softasserts.assertAll();
 		}
 	}
 
@@ -109,15 +125,18 @@ public class TC_PageChecker_005 extends BaseClass {
 
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@id='HHConsentStatus']")));
+		SoftAssert softasserts= new SoftAssert();
 
 		if (driver.findElement(By.xpath("//div[@class=\"col-sm-6\"]//h4")).getText()
 				.contains("Patient List - Health Home All Patients")) {
-			Assert.assertTrue(true);
+			softasserts.assertTrue(true);
 			logger.info("Patient List - Health Home All Patients page Successfully Validated");
+			softasserts.assertAll();
 		} else {
+			softasserts.assertTrue(false);
 			captureScreen(driver, "HH_EligiblePatients");
 			logger.info("Patient List - Health Home All Patients validation Failed");
-			Assert.assertTrue(false);
+			softasserts.assertAll();
 
 		}
 		WebDriverWait wait2 = new WebDriverWait(driver, 15);
@@ -132,15 +151,18 @@ public class TC_PageChecker_005 extends BaseClass {
 
 		WebDriverWait wait4 = new WebDriverWait(driver, 15);
 		wait4.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
+		SoftAssert softasserts= new SoftAssert();
 
 		if (driver.findElement(By.xpath("//div[@class='col-sm-6']/h4")).getText()
 				.contains("Patient List - RHIO Consent")) {
-			Assert.assertTrue(true);
+			softasserts.assertTrue(true);
 			logger.info("Patient List - RHIO Consent page successfully validated");
+			softasserts.assertAll();
 		} else {
+			softasserts.assertTrue(false);
 			captureScreen(driver, "Patient List - RHIO Consent");
 			logger.info("Patient List - RHIO Consent validation failed");
-			Assert.assertTrue(false);
+			softasserts.assertAll();
 		}
 		WebDriverWait wait2 = new WebDriverWait(driver, 15);
 		wait2.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
@@ -154,15 +176,18 @@ public class TC_PageChecker_005 extends BaseClass {
 
 		WebDriverWait wait5 = new WebDriverWait(driver, 15);
 		wait5.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
+		SoftAssert softasserts= new SoftAssert();
 
 		if (driver.findElement(By.xpath("//div[@class='col-sm-6']//h4")).getText()
 				.contains("Patient List - CCM - All Patients")) {
-			Assert.assertTrue(true);
+			softasserts.assertTrue(true);
 			logger.info("CCM - All Patients page successfully validated");
+			softasserts.assertAll();
 		} else {
+			softasserts.assertTrue(false);
 			captureScreen(driver, "CCM-All Patients");
 			logger.info("CCM - All Patients validation failed");
-			Assert.assertTrue(false);
+			softasserts.assertAll();
 		}
 		WebDriverWait wait2 = new WebDriverWait(driver, 15);
 		wait2.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
@@ -176,17 +201,21 @@ public class TC_PageChecker_005 extends BaseClass {
 		
 		WebDriverWait wait=new WebDriverWait(driver,15);
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
+		SoftAssert softasserts= new SoftAssert();
 
 		if(driver.findElement(By.xpath("//div[@class='col-sm-6']//h4")).getText().contains("CCM Dashboard"))
 		{
-			Assert.assertTrue(true);
+			softasserts.assertTrue(true);
 			logger.info("CCM Dashboard page successfully validated");
+			softasserts.assertAll();
 		}
 		else
 		{
+			softasserts.assertTrue(false);
 			captureScreen(driver, "CCM Dashboard");
 			logger.info("CCM Dashboard validation fail");
-			Assert.assertTrue(false);
+			softasserts.assertAll();
+			
 		}
 	}
 	
