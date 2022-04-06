@@ -7,6 +7,13 @@
   <test thread-count="5" name="eCares(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.essen.testCases.TC_PageChecker_005">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="myworklistpagechecker"/>
+        </methods>
+      </class> <!-- com.essen.testCases.TC_PageChecker_005 -->
       <class name="com.essen.testCases.TC_LoginTestDDT_002">
         <methods>
           <include name="teardown"/>
