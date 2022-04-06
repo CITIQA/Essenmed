@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Essen">
 
 	<listeners>
 		<listener class-name="com.essen.utilities.Reporting" />
 	</listeners>
-	
+
 	<test name="eCares">
-			<parameter name="browser" value="chrome" />
-		
-				<classes>
-					<class name="com.essen.testCases.TC_LoginTest_001" /> 
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.essen.testCases.TC_LoginTest_001" />
 					<class name="com.essen.testCases.TC_LoginTestDDT_002" /> 
 					<class name="com.essen.testCases.TC_UserTest_003" />
-					<class name="com.essen.testCases.TC_TOCHospitalization_004" />	 
+					<class name="com.essen.testCases.TC_TOCHospitalization_004" />		 
 					<class name="com.essen.testCases.TC_PageChecker_005" />
 				</classes>
 
