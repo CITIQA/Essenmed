@@ -494,3 +494,27 @@
 2022-03-29 11:08:24,829 - eCares -INFO - Invisibility element DONE
 2022-03-29 11:08:24,934 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
 2022-03-29 11:08:26,436 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-04-06 21:49:53,334 - eCares -INFO - URL is Accessed with the defined Browser
+2022-04-06 21:49:53,600 - eCares -INFO - Username is entered
+2022-04-06 21:49:53,696 - eCares -INFO - Password is entered
+2022-04-06 21:49:56,478 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@1995)
+2022-04-06 21:49:56,508 - eCares -INFO - Login Test Passed
+2022-04-06 21:50:11,450 - eCares -INFO - Login Test Passed
+2022-04-06 21:50:28,480 - eCares -INFO - Login Test Failed
+2022-04-06 21:50:41,078 - eCares -INFO - Login Test Failed
+2022-04-06 21:50:44,467 - eCares -INFO - Login Test Passed
+2022-04-06 21:50:54,346 - eCares -INFO - Login Successful
+2022-04-06 21:50:59,566 - eCares -INFO - Providing Users Details
+2022-04-06 21:51:04,346 - eCares -INFO - Test Case Passed
+2022-04-06 21:51:13,797 - eCares -INFO - login successfull
+2022-04-06 21:51:15,814 - eCares -INFO - Entered into TOC page
+2022-04-06 21:51:26,292 - eCares -INFO - Clicked on DOB calender
+2022-04-06 21:51:37,903 - eCares -INFO - Test Case Passed
+2022-04-06 21:51:43,418 - eCares -INFO - Login Successful
+2022-04-06 21:51:43,448 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-04-06 21:52:17,233 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-04-06 21:52:44,385 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-04-06 21:52:47,681 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-04-06 21:53:14,244 - eCares -INFO - Patient List - RHIO Consent page successfully validated
+2022-04-06 21:53:40,593 - eCares -INFO - CCM - All Patients page successfully validated
+2022-04-06 21:54:05,150 - eCares -INFO - CCM Dashboard page successfully validated
