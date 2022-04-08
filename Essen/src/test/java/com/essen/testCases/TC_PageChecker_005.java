@@ -5,10 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
 import com.essen.pageObjects.LoginPage;
 import com.essen.pageObjects.MenuList;
 
@@ -220,7 +218,7 @@ public class TC_PageChecker_005 extends BaseClass {
 	}
 	
 	//---------------------------Power BI Dashboards Checker----------------------------------------------------------------------
-	
+
 
 
 }
