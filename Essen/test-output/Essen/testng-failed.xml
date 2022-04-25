@@ -10,6 +10,7 @@
       <class name="com.essen.testCases.TC_PageChecker_005">
         <methods>
           <include name="teardown"/>
+          <include name="medicalopenenrollpagechecker"/>
           <include name="setup"/>
           <include name="myworklistpagechecker"/>
         </methods>
