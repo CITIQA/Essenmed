@@ -15,13 +15,6 @@
           <include name="myworklistpagechecker"/>
         </methods>
       </class> <!-- com.essen.testCases.TC_PageChecker_005 -->
-      <class name="com.essen.testCases.TC_LoginTestDDT_002">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="LoginTestDDT" invocation-numbers="1 2"/>
-        </methods>
-      </class> <!-- com.essen.testCases.TC_LoginTestDDT_002 -->
     </classes>
   </test> <!-- eCares(failed) -->
 </suite> <!-- Failed suite [Essen] -->
