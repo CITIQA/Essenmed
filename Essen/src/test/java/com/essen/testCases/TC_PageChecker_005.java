@@ -13,7 +13,8 @@ import com.essen.pageObjects.MenuList;
 public class TC_PageChecker_005 extends BaseClass {
 
 	@Test(description = "To validate the scenario of Home Page", priority = 1)
-	public void Homepagechecker() throws IOException {
+	public void Homepagechecker() throws IOException 
+	{
 		LoginPage lp = new LoginPage(driver);
 		lp.setUsername(username);
 		lp.setPassword(password);

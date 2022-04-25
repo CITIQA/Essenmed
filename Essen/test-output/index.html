@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                    <span class="method-stats">15 methods, 4 failed,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -110,6 +110,11 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Essen" title="com.essen.testCases.TC_LoginTestDDT_002" class="method navigator-link" hash-for-method="LoginTestDDT(adityatest2, Pass$123)">LoginTestDDT(adityatest2, Pass$123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Essen" title="com.essen.testCases.TC_PageChecker_005" class="method navigator-link" hash-for-method="medicalopenenrollpagechecker">medicalopenenrollpagechecker</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,7 +158,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Essen" title="com.essen.testCases.TC_LoginTestDDT_002" class="method navigator-link" hash-for-method="LoginTestDDT(anadkarni@essenmed.com, Bronx@1995)">LoginTestDDT(anadkarni@essenmed.com, Bronx@1995)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Essen" title="com.essen.testCases.TC_LoginTestDDT_002" class="method navigator-link" hash-for-method="LoginTestDDT(anadkarni@essenmed.com, Bronx@2000)">LoginTestDDT(anadkarni@essenmed.com, Bronx@2000)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -181,11 +186,6 @@
                         <a href="#" panel-name="suite-Essen" title="com.essen.testCases.TC_LoginTest_001" class="method navigator-link" hash-for-method="logintest1">logintest1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Essen" title="com.essen.testCases.TC_PageChecker_005" class="method navigator-link" hash-for-method="medicalopenenrollpagechecker">medicalopenenrollpagechecker</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Essen -->
                   </li>
                 </ul>
@@ -206,6 +206,21 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="medicalopenenrollpagechecker">
+                  </a> <!-- medicalopenenrollpagechecker -->
+                  <span class="method-name">medicalopenenrollpagechecker</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at com.essen.testCases.TC_PageChecker_005.medicalopenenrollpagechecker(TC_PageChecker_005.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(To validate the scenario of Medical open Enrollment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="myworklistpagechecker">
                   </a> <!-- myworklistpagechecker -->
                   <span class="method-name">myworklistpagechecker</span>
@@ -213,11 +228,11 @@
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LT246&apos;, ip: &apos;192.168.1.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ANADKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e68b881d84c35b2c82a27201ae62d8c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ANADKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5916a90fe267a148587d693b06395ba4
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.essen.testCases.TC_PageChecker_005.myworklistpagechecker(TC_PageChecker_005.java:47)
+	at com.essen.testCases.TC_PageChecker_005.myworklistpagechecker(TC_PageChecker_005.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
@@ -325,13 +340,21 @@ Session ID: 5e68b881d84c35b2c82a27201ae62d8c
 (To validate scenario of Consent>> DCE all patients)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Essen-class-passed -->
+          <div class="suite-Essen-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.essen.testCases.TC_LoginTest_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="medicalopenenrollpagechecker">
-                  </a> <!-- medicalopenenrollpagechecker -->
-                  <span class="method-name">medicalopenenrollpagechecker</span>
+                  <a name="logintest1">
+                  </a> <!-- logintest1 -->
+                  <span class="method-name">logintest1</span>
                   <em>
-(To validate the scenario of Medical open Enrollment)                  </em>
+(To check whether user was able to Login to the Page or Not with single User)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -354,29 +377,12 @@ Session ID: 5e68b881d84c35b2c82a27201ae62d8c
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTestDDT(anadkarni@essenmed.com, Bronx@1995)">
-                  </a> <!-- LoginTestDDT(anadkarni@essenmed.com, Bronx@1995) -->
+                  <a name="LoginTestDDT(anadkarni@essenmed.com, Bronx@2000)">
+                  </a> <!-- LoginTestDDT(anadkarni@essenmed.com, Bronx@2000) -->
                   <span class="method-name">LoginTestDDT</span>
-                  <span class="parameters">(anadkarni@essenmed.com, Bronx@1995)</span>
+                  <span class="parameters">(anadkarni@essenmed.com, Bronx@2000)</span>
                   <em>
 (Login with Multiple Users)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Essen-class-passed -->
-          <div class="suite-Essen-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.essen.testCases.TC_LoginTest_001</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest1">
-                  </a> <!-- logintest1 -->
-                  <span class="method-name">logintest1</span>
-                  <em>
-(To check whether user was able to Login to the Page or Not with single User)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -475,65 +481,65 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'myworklistpagechecker')
-data.setCell(0, 2, 'com.essen.testCases.TC_PageChecker_005')
-data.setCell(0, 3, 31845);
+data.setCell(0, 1, 'TOCTest')
+data.setCell(0, 2, 'com.essen.testCases.TC_TOCHospitalization_004')
+data.setCell(0, 3, 32339);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TOCTest')
-data.setCell(1, 2, 'com.essen.testCases.TC_TOCHospitalization_004')
-data.setCell(1, 3, 30316);
+data.setCell(1, 1, 'myworklistpagechecker')
+data.setCell(1, 2, 'com.essen.testCases.TC_PageChecker_005')
+data.setCell(1, 3, 31103);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'CCMAllPatients')
+data.setCell(2, 1, 'RhioConsent')
 data.setCell(2, 2, 'com.essen.testCases.TC_PageChecker_005')
-data.setCell(2, 3, 26369);
+data.setCell(2, 3, 25615);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'RhioConsent')
+data.setCell(3, 1, 'CCMAllPatients')
 data.setCell(3, 2, 'com.essen.testCases.TC_PageChecker_005')
-data.setCell(3, 3, 24971);
+data.setCell(3, 3, 23677);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'consent_DCEAllPatients')
-data.setCell(4, 2, 'com.essen.testCases.TC_PageChecker_005')
-data.setCell(4, 3, 16035);
+data.setCell(4, 1, 'LoginTestDDT')
+data.setCell(4, 2, 'com.essen.testCases.TC_LoginTestDDT_002')
+data.setCell(4, 3, 13482);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'HH_EligiblePatients')
+data.setCell(5, 1, 'consent_DCEAllPatients')
 data.setCell(5, 2, 'com.essen.testCases.TC_PageChecker_005')
-data.setCell(5, 3, 14908);
+data.setCell(5, 3, 13319);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'CCHDashboard')
+data.setCell(6, 1, 'HH_EligiblePatients')
 data.setCell(6, 2, 'com.essen.testCases.TC_PageChecker_005')
-data.setCell(6, 3, 14512);
+data.setCell(6, 3, 13298);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'LoginTestDDT')
 data.setCell(7, 2, 'com.essen.testCases.TC_LoginTestDDT_002')
-data.setCell(7, 3, 13837);
+data.setCell(7, 3, 12210);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'medicalopenenrollpagechecker')
-data.setCell(8, 2, 'com.essen.testCases.TC_PageChecker_005')
-data.setCell(8, 3, 13051);
+data.setCell(8, 1, 'LoginTestDDT')
+data.setCell(8, 2, 'com.essen.testCases.TC_LoginTestDDT_002')
+data.setCell(8, 3, 12133);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'UserTest')
 data.setCell(9, 2, 'com.essen.testCases.TC_UserTest_003')
-data.setCell(9, 3, 12801);
+data.setCell(9, 3, 11132);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'LoginTestDDT')
-data.setCell(10, 2, 'com.essen.testCases.TC_LoginTestDDT_002')
-data.setCell(10, 3, 12794);
+data.setCell(10, 1, 'CCHDashboard')
+data.setCell(10, 2, 'com.essen.testCases.TC_PageChecker_005')
+data.setCell(10, 3, 10792);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'LoginTestDDT')
-data.setCell(11, 2, 'com.essen.testCases.TC_LoginTestDDT_002')
-data.setCell(11, 3, 12593);
+data.setCell(11, 1, 'Homepagechecker')
+data.setCell(11, 2, 'com.essen.testCases.TC_PageChecker_005')
+data.setCell(11, 3, 7927);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'LoginTestDDT')
 data.setCell(12, 2, 'com.essen.testCases.TC_LoginTestDDT_002')
-data.setCell(12, 3, 7491);
+data.setCell(12, 3, 6183);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'logintest1')
 data.setCell(13, 2, 'com.essen.testCases.TC_LoginTest_001')
-data.setCell(13, 3, 4362);
+data.setCell(13, 3, 3812);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'Homepagechecker')
+data.setCell(14, 1, 'medicalopenenrollpagechecker')
 data.setCell(14, 2, 'com.essen.testCases.TC_PageChecker_005')
-data.setCell(14, 3, 2546);
+data.setCell(14, 3, 3136);
 window.suiteTableData['Essen']= { tableData: data, tableDiv: 'times-div-Essen'}
 return data;
 }
@@ -571,117 +577,119 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">logintest1</span>
-                <span class="method-start">10129 ms</span>
+                <span class="method-start">3360 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">14504 ms</span>
+                <span class="method-start">7193 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.essen.testCases.TC_LoginTestDDT_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">14633 ms</span>
+                <span class="method-start">7434 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginTestDDT(adityatest2, Pass$12345)</span>
-                <span class="method-start">18649 ms</span>
+                <span class="method-start">10933 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LoginTestDDT(adityatest2, Pass$123)</span>
-                <span class="method-start">32488 ms</span>
+                <span class="method-start">24416 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LoginTestDDT(aditya2, Pass$123)</span>
-                <span class="method-start">45287 ms</span>
+                <span class="method-start">36630 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">LoginTestDDT(anadkarni@essenmed.com, Bronx@1995)</span>
-                <span class="method-start">57881 ms</span>
+                <span class="method-name">LoginTestDDT(anadkarni@essenmed.com, Bronx@2000)</span>
+                <span class="method-start">48764 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">65374 ms</span>
+                <span class="method-start">54948 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.essen.testCases.TC_UserTest_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">65546 ms</span>
+                <span class="method-start">55137 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">UserTest</span>
-                <span class="method-start">68387 ms</span>
+                <span class="method-start">57882 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">81189 ms</span>
+                <span class="method-start">69015 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.essen.testCases.TC_TOCHospitalization_004</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">81331 ms</span>
+                <span class="method-start">69175 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">TOCTest</span>
-                <span class="method-start">84492 ms</span>
+                <span class="method-start">71972 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">114809 ms</span>
+                <span class="method-start">104313 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.essen.testCases.TC_PageChecker_005</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">114964 ms</span>
+                <span class="method-start">104488 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Homepagechecker</span>
-                <span class="method-start">117703 ms</span>
+                <span class="method-start">108058 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">myworklistpagechecker</span>
-                <span class="method-start">120251 ms</span>
+                <span class="method-start">115986 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">medicalopenenrollpagechecker</span>
-                <span class="method-start">152098 ms</span>
+                <span class="method-start">147090 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">consent_DCEAllPatients</span>
-                <span class="method-start">165151 ms</span>
+                <span class="method-start">150227 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">HH_EligiblePatients</span>
-                <span class="method-start">181187 ms</span>
+                <span class="method-start">163547 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RhioConsent</span>
-                <span class="method-start">196096 ms</span>
+                <span class="method-start">176846 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CCMAllPatients</span>
-                <span class="method-start">221068 ms</span>
+                <span class="method-start">202462 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CCHDashboard</span>
-                <span class="method-start">247439 ms</span>
+                <span class="method-start">226140 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">261952 ms</span>
+                <span class="method-start">236933 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
