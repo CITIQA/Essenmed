@@ -3,9 +3,8 @@ package com.essen.testCases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
+import org.testng.asserts.SoftAssert;
 import com.essen.pageObjects.LoginPage;
 import com.essen.pageObjects.TOCHospitalizationPage;
 
@@ -22,6 +21,7 @@ public class TC_TOCHospitalization_004 extends BaseClass{
 		login.setPassword(password);
 		login.setSignin();
 		Thread.sleep(3000);
+		SoftAssert softasserts= new SoftAssert();
 		logger.info("login successfull");
 		
 		TOCHospitalizationPage toc=new TOCHospitalizationPage(driver);
@@ -65,15 +65,17 @@ public class TC_TOCHospitalization_004 extends BaseClass{
 		if(popupText==true)
 		{
 		logger.info("Test Case Passed");
-		Assert.assertTrue(true);
+		softasserts.assertTrue(true);
 		driver.findElement(By.id("btnCloseAlertModal")).click();
+		softasserts.assertAll();
 		}
 		else
 		{
 		logger.info("Test Case Failed");
 		captureScreen(driver,"TOCTest");
 		logger.info("Screenshot taken");
-		Assert.assertTrue(false);
+		softasserts.assertTrue(false);
+		softasserts.assertAll();
 		
 		}
 		

@@ -18,11 +18,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-import org.testng.asserts.SoftAssert;
-
-import com.essen.pageObjects.LoginPage;
 import com.essen.utilities.ReadConfig;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
@@ -63,8 +59,6 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.get(baseURL);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-
 
 	}
 

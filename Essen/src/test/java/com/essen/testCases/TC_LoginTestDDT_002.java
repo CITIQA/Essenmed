@@ -2,9 +2,10 @@ package com.essen.testCases;
 
 import java.io.IOException;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
 import com.essen.pageObjects.LoginPage;
 import com.essen.utilities.XLUtils;
 
@@ -21,19 +22,22 @@ public class TC_LoginTestDDT_002 extends BaseClass
 		lp.setSignin();
 		
 		Thread.sleep(1000);
+		SoftAssert softasserts= new SoftAssert();
 		
 		if(isLogoutPresent()==true)
 		{
 			logger.info("Login Test Passed");
-			Assert.assertTrue(true);
+			softasserts.assertTrue(true);
 			lp.setLogout();
 			Thread.sleep(3000);
+			softasserts.assertAll();
 		}
 		else
 		{
 			captureScreen(driver, "LoginTestDDT");
 			logger.info("Login Test Failed");
-			Assert.assertTrue(false);
+			softasserts.assertTrue(false);
+			softasserts.assertAll();
 			
 		}
 	}

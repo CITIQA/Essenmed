@@ -5,10 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import com.essen.pageObjects.LoginPage;
 import com.essen.pageObjects.UsersPage;
-
-import junit.framework.Assert;
 
 public class TC_UserTest_003 extends BaseClass
 {
@@ -20,6 +19,7 @@ public class TC_UserTest_003 extends BaseClass
 			lp.setPassword(password);
 			lp.setSignin();
 			logger.info("Login Successful");
+			SoftAssert softasserts= new SoftAssert();
 			
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			
@@ -60,14 +60,16 @@ public class TC_UserTest_003 extends BaseClass
 			if(bool==true)
 			{
 				logger.info("Test Case Passed");
-				Assert.assertTrue(true);
+				softasserts.assertTrue(true);
 				driver.findElement(By.xpath("//button[@id='btnCloseAlertModal']")).click();	
+				softasserts.assertAll();
 			}
 			else
 			{
 				logger.info("Test Case Failed");
-				Assert.assertTrue(false);
+				softasserts.assertTrue(false);
 				captureScreen(driver,"UserTest");
+				softasserts.assertAll();
 			}
 			
 			

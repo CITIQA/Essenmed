@@ -73,11 +73,14 @@ public class TC_PageChecker_005 extends BaseClass {
 		wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='btnExportCSV']")));
 
 		if (driver.findElement(By.xpath("//h4[contains(text(),'Open Enrollment')]")).getText()
-				.contains("Patient List - Medicare-Open Enrollment")) {
+				.contains("Patient List - Medicare-Open Enrollment")) 
+		{
 			softasserts.assertTrue(true);
 			logger.info("Medical Enrollment Page Successfully Validated!!! Login Test Passed");
 			softasserts.assertAll();
-		} else {
+		} 
+		else 
+		{
 			softasserts.assertTrue(false);
 			captureScreen(driver, "medicalopenenrollpagechecker");
 			logger.info("Medical Enrollment Validation Failed");
