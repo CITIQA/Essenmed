@@ -585,3 +585,64 @@
 2022-04-25 23:05:35,951 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
 2022-04-25 23:05:59,818 [main] INFO eCares - CCM - All Patients page successfully validated
 2022-04-25 23:06:21,817 [main] INFO eCares - CCM Dashboard page successfully validated
+2022-05-10 12:36:25,518 [main] INFO eCares - Login Successful
+2022-05-10 12:36:59,016 [main] INFO eCares - Login Successful
+2022-05-10 12:37:10,667 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 12:51:53,315 [main] INFO eCares - Login Successful
+2022-05-10 12:51:53,406 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 12:51:54,295 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 12:51:55,810 [main] INFO eCares - Medical Enrollment Validation Failed
+2022-05-10 13:47:49,296 [main] INFO eCares - Login Successful
+2022-05-10 13:47:49,377 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 13:47:50,530 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 13:47:51,909 [main] INFO eCares - Medical Enrollment Validation Failed
+2022-05-10 13:51:19,531 [main] INFO eCares - Login Successful
+2022-05-10 13:51:19,625 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 13:51:20,293 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 13:51:21,482 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:47:14,654 [main] INFO eCares - Login Successful
+2022-05-10 14:47:14,749 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 14:47:15,653 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:47:16,806 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:47:32,807 [main] INFO eCares - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:47:44,977 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
+2022-05-10 14:47:59,009 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
+2022-05-10 14:48:12,245 [main] INFO eCares - CCM - All Patients page successfully validated
+2022-05-10 14:48:59,879 [main] INFO eCares - Login Successful
+2022-05-10 14:48:59,964 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 14:49:00,839 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:49:01,925 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:49:15,844 [main] INFO eCares - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:49:27,945 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
+2022-05-10 14:49:42,059 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
+2022-05-10 14:49:55,305 [main] INFO eCares - CCM - All Patients page successfully validated
+2022-05-10 14:55:27,969 [main] INFO eCares - Login Successful
+2022-05-10 14:55:28,055 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 14:55:29,222 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:55:31,380 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:55:45,365 [main] INFO eCares - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:55:57,517 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
+2022-05-10 14:56:11,636 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
+2022-05-10 14:56:24,920 [main] INFO eCares - CCM - All Patients page successfully validated
+2022-05-10 14:57:44,101 [main] INFO eCares - Login Successful
+2022-05-10 14:57:44,188 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 14:57:45,081 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:57:46,188 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:57:47,843 [main] INFO eCares - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-10 14:57:50,539 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
+2022-05-10 14:59:54,377 [main] INFO eCares - Login Successful
+2022-05-10 14:59:54,465 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 14:59:55,371 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 15:00:08,623 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-10 15:00:21,480 [main] INFO eCares - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-10 15:00:33,694 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
+2022-05-10 15:00:47,743 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
+2022-05-10 15:01:00,602 [main] INFO eCares - CCM - All Patients page successfully validated
+2022-05-10 15:17:45,336 [main] INFO eCares - Login Successful
+2022-05-10 15:17:45,428 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-10 15:17:46,580 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-10 15:17:58,923 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-10 15:18:11,813 [main] INFO eCares - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-10 15:18:23,984 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
+2022-05-10 15:18:38,092 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
+2022-05-10 15:18:51,046 [main] INFO eCares - CCM - All Patients page successfully validated

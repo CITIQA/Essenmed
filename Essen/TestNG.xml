@@ -14,8 +14,10 @@
 	<!--		<class name="com.essen.testCases.TC_LoginTest_001" />
 					<class name="com.essen.testCases.TC_LoginTestDDT_002" /> 
 					<class name="com.essen.testCases.TC_UserTest_003" />
-					<class name="com.essen.testCases.TC_TOCHospitalization_004" />		 -->
+					<class name="com.essen.testCases.TC_TOCHospitalization_004" />	
+					<class name="com.essen.testCases.DashboardChecker" />	 -->
 					<class name="com.essen.testCases.TC_PageChecker_005" />
+					
 				</classes>
 
 	</test>
