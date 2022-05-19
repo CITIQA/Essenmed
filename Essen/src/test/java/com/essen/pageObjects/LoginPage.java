@@ -3,6 +3,7 @@ package com.essen.pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage 
@@ -15,19 +16,19 @@ public class LoginPage
 		PageFactory.initElements(rdriver,this);
 	}
 	
-	@FindBy(name="UserName")
+	@FindBy(how = How.XPATH,using="//input[@id='UserName']")
 	WebElement TxtUserName;
 	
-	@FindBy(name="Password")
+	@FindBy(how = How.XPATH,using="//input[@id='Password']")
 	WebElement TxtPassword;
 	
-	@FindBy(xpath="//input[@value='SIGN IN']")
+	@FindBy(how = How.XPATH,using="//input[@value='SIGN IN']")
 	WebElement Btnsignin;
 	
-	@FindBy(xpath="//a[@href='/Account/ForgotPassword']")
+	@FindBy(how = How.XPATH,using="//a[@href='/Account/ForgotPassword']")
 	WebElement Btnforgotpassword;
 	
-	@FindBy(xpath="//form[@id='logoutForm']/button[@type='submit']")
+	@FindBy(how = How.XPATH,using="//form[@id='logoutForm']/button[@type='submit']")
 	WebElement BtnLogout;
 	
 	

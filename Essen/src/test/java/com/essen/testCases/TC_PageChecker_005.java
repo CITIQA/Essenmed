@@ -7,12 +7,22 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import com.essen.pageObjects.LoginPage;
 import com.essen.pageObjects.MenuList;
 
 public class TC_PageChecker_005 extends BaseClass {
 
 	@Test(description = "To validate the scenario of Home Page", priority = 1)
-	public void Homepagechecker() throws IOException {
+	public void Homepagechecker() throws IOException 
+	{
+		LoginPage lp = new LoginPage(driver);
+		lp.setUsername(username);
+		lp.setPassword(password);
+		lp.setSignin();
+		logger.info("Login Successful");
+
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		SoftAssert softasserts = new SoftAssert();
 
 		

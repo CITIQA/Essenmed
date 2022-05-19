@@ -62,11 +62,6 @@ public class BaseClass {
 		driver.get(baseURL);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		LoginPage lp = new LoginPage(driver);
-		lp.setUsername(username);
-		lp.setPassword(password);
-		lp.setSignin();
-		logger.info("Login Successful");
 
 	}
 
