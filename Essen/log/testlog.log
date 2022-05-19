@@ -646,3 +646,89 @@
 2022-05-10 15:18:23,984 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
 2022-05-10 15:18:38,092 - eCares -INFO - Patient List - RHIO Consent page successfully validated
 2022-05-10 15:18:51,046 - eCares -INFO - CCM - All Patients page successfully validated
+2022-05-19 11:41:12,183 - eCares -INFO - Login Successful
+2022-05-19 11:41:12,296 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-19 11:41:15,974 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-19 11:41:30,319 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-19 11:41:43,247 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-19 11:41:56,565 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-05-19 11:42:10,638 - eCares -INFO - Patient List - RHIO Consent page successfully validated
+2022-05-19 11:42:23,981 - eCares -INFO - CCM - All Patients page successfully validated
+2022-05-19 11:43:43,832 - eCares -INFO - Login Successful
+2022-05-19 11:43:43,843 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 11:44:01,367 - eCares -INFO - Login Successful
+2022-05-19 11:44:49,688 - eCares -INFO - Login Successful
+2022-05-19 11:45:52,852 - eCares -INFO - Login Successful
+2022-05-19 11:45:52,864 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 11:52:35,471 - eCares -INFO - Login Successful
+2022-05-19 11:52:35,483 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 11:59:40,398 - eCares -INFO - Login Successful
+2022-05-19 11:59:40,411 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 12:09:30,069 - eCares -INFO - Login Successful
+2022-05-19 12:09:30,081 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 12:46:39,350 - eCares -INFO - Login Successful
+2022-05-19 12:46:39,365 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 12:48:21,930 - eCares -INFO - Login Successful
+2022-05-19 12:48:21,943 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 12:53:53,651 - eCares -INFO - Username is entered
+2022-05-19 12:53:53,733 - eCares -INFO - Password is entered
+2022-05-19 12:53:57,291 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@2022)
+2022-05-19 12:53:57,292 - eCares -INFO - Login Successful
+2022-05-19 12:53:57,302 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 12:53:57,952 - eCares -INFO - Login Test Passed
+2022-05-19 12:55:54,763 - eCares -INFO - Username is entered
+2022-05-19 12:55:54,844 - eCares -INFO - Password is entered
+2022-05-19 12:55:58,798 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@2022)
+2022-05-19 12:55:58,798 - eCares -INFO - Login Successful
+2022-05-19 12:55:58,799 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 12:55:59,437 - eCares -INFO - Login Test Passed
+2022-05-19 12:56:35,926 - eCares -INFO - Username is entered
+2022-05-19 12:56:36,011 - eCares -INFO - Password is entered
+2022-05-19 12:56:44,052 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@2022)
+2022-05-19 12:56:44,052 - eCares -INFO - Login Successful
+2022-05-19 12:56:44,053 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 12:56:44,703 - eCares -INFO - Login Test Passed
+2022-05-19 12:57:01,085 - eCares -INFO - Login Test Passed
+2022-05-19 12:57:19,692 - eCares -INFO - Login Test Failed
+2022-05-19 12:57:31,854 - eCares -INFO - Login Test Failed
+2022-05-19 12:57:45,103 - eCares -INFO - Login Test Passed
+2022-05-19 12:59:48,809 - eCares -INFO - Login Successful
+2022-05-19 12:59:55,188 - eCares -INFO - Providing Users Details
+2022-05-19 12:59:59,848 - eCares -INFO - Test Case Passed
+2022-05-19 13:00:38,222 - eCares -INFO - login successfull
+2022-05-19 13:00:39,961 - eCares -INFO - Entered into TOC page
+2022-05-19 13:00:49,901 - eCares -INFO - Clicked on DOB calender
+2022-05-19 13:01:00,211 - eCares -INFO - Test Case Passed
+2022-05-19 13:06:36,364 - eCares -INFO - Login Successful
+2022-05-19 13:06:36,451 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-19 13:06:37,726 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-19 13:06:50,976 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-19 13:07:03,893 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-19 13:07:16,101 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-05-19 13:07:30,180 - eCares -INFO - Patient List - RHIO Consent page successfully validated
+2022-05-19 13:07:43,456 - eCares -INFO - CCM - All Patients page successfully validated
+2022-05-19 13:08:33,998 - eCares -INFO - Username is entered
+2022-05-19 13:08:34,080 - eCares -INFO - Password is entered
+2022-05-19 13:08:37,772 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@2022)
+2022-05-19 13:08:37,772 - eCares -INFO - Login Successful
+2022-05-19 13:08:37,773 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-19 13:08:38,411 - eCares -INFO - Login Test Passed
+2022-05-19 13:08:54,454 - eCares -INFO - Login Test Passed
+2022-05-19 13:09:10,490 - eCares -INFO - Login Test Failed
+2022-05-19 13:09:22,641 - eCares -INFO - Login Test Failed
+2022-05-19 13:09:26,768 - eCares -INFO - Login Test Passed
+2022-05-19 13:09:38,169 - eCares -INFO - Login Successful
+2022-05-19 13:09:41,634 - eCares -INFO - Providing Users Details
+2022-05-19 13:09:45,784 - eCares -INFO - Test Case Passed
+2022-05-19 13:09:56,376 - eCares -INFO - login successfull
+2022-05-19 13:09:57,715 - eCares -INFO - Entered into TOC page
+2022-05-19 13:10:07,138 - eCares -INFO - Clicked on DOB calender
+2022-05-19 13:10:16,516 - eCares -INFO - Test Case Passed
+2022-05-19 13:10:29,866 - eCares -INFO - Login Successful
+2022-05-19 13:10:29,912 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-19 13:10:30,777 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-19 13:10:42,903 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-19 13:10:55,749 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-19 13:11:07,899 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-05-19 13:11:13,118 - eCares -INFO - Patient List - RHIO Consent page successfully validated
+2022-05-19 13:11:31,749 - eCares -INFO - CCM - All Patients page successfully validated
