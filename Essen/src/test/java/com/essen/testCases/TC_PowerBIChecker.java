@@ -8,7 +8,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.essen.pageObjects.MenuList;
 
-public class DashboardChecker extends BaseClass
+public class TC_PowerBIChecker extends BaseClass
 {
 
 	@Test(description = "To check page validation of CCM Dashboard", priority = 1)
