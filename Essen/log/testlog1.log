@@ -732,3 +732,28 @@
 2022-05-19 13:11:07,899 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
 2022-05-19 13:11:13,118 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
 2022-05-19 13:11:31,749 [main] INFO eCares - CCM - All Patients page successfully validated
+2022-05-20 23:18:23,201 [main] INFO eCares - Username is entered
+2022-05-20 23:18:23,330 [main] INFO eCares - Password is entered
+2022-05-20 23:18:26,287 [main] INFO eCares - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@2022)
+2022-05-20 23:18:26,287 [main] INFO eCares - Login Successful
+2022-05-20 23:18:26,288 [main] INFO eCares - URL is Accessed with the defined Browser
+2022-05-20 23:18:27,502 [main] INFO eCares - Login Test Passed
+2022-05-20 23:18:44,629 [main] INFO eCares - Login Test Passed
+2022-05-20 23:19:01,681 [main] INFO eCares - Login Test Failed
+2022-05-20 23:19:14,446 [main] INFO eCares - Login Test Failed
+2022-05-20 23:19:17,757 [main] INFO eCares - Login Test Passed
+2022-05-20 23:19:28,968 [main] INFO eCares - Login Successful
+2022-05-20 23:19:39,105 [main] INFO eCares - Providing Users Details
+2022-05-20 23:19:44,169 [main] INFO eCares - Test Case Passed
+2022-05-20 23:19:53,938 [main] INFO eCares - login successfull
+2022-05-20 23:19:56,003 [main] INFO eCares - Entered into TOC page
+2022-05-20 23:20:06,350 [main] INFO eCares - Clicked on DOB calender
+2022-05-20 23:20:18,971 [main] INFO eCares - Test Case Passed
+2022-05-20 23:20:24,885 [main] INFO eCares - Login Successful
+2022-05-20 23:20:24,939 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-20 23:20:26,309 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-20 23:20:40,142 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-20 23:20:43,543 [main] INFO eCares - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-20 23:20:56,528 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
+2022-05-20 23:21:11,254 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
+2022-05-20 23:21:25,254 [main] INFO eCares - CCM - All Patients page successfully validated

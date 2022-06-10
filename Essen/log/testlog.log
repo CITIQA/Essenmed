@@ -732,3 +732,28 @@
 2022-05-19 13:11:07,899 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
 2022-05-19 13:11:13,118 - eCares -INFO - Patient List - RHIO Consent page successfully validated
 2022-05-19 13:11:31,749 - eCares -INFO - CCM - All Patients page successfully validated
+2022-05-20 23:18:23,201 - eCares -INFO - Username is entered
+2022-05-20 23:18:23,330 - eCares -INFO - Password is entered
+2022-05-20 23:18:26,287 - eCares -INFO - Clicked on Sign In after entering Username (anadkarni@essenmed.com) and Password (Bronx@2022)
+2022-05-20 23:18:26,287 - eCares -INFO - Login Successful
+2022-05-20 23:18:26,288 - eCares -INFO - URL is Accessed with the defined Browser
+2022-05-20 23:18:27,502 - eCares -INFO - Login Test Passed
+2022-05-20 23:18:44,629 - eCares -INFO - Login Test Passed
+2022-05-20 23:19:01,681 - eCares -INFO - Login Test Failed
+2022-05-20 23:19:14,446 - eCares -INFO - Login Test Failed
+2022-05-20 23:19:17,757 - eCares -INFO - Login Test Passed
+2022-05-20 23:19:28,968 - eCares -INFO - Login Successful
+2022-05-20 23:19:39,105 - eCares -INFO - Providing Users Details
+2022-05-20 23:19:44,169 - eCares -INFO - Test Case Passed
+2022-05-20 23:19:53,938 - eCares -INFO - login successfull
+2022-05-20 23:19:56,003 - eCares -INFO - Entered into TOC page
+2022-05-20 23:20:06,350 - eCares -INFO - Clicked on DOB calender
+2022-05-20 23:20:18,971 - eCares -INFO - Test Case Passed
+2022-05-20 23:20:24,885 - eCares -INFO - Login Successful
+2022-05-20 23:20:24,939 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-05-20 23:20:26,309 - eCares -INFO - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-05-20 23:20:40,142 - eCares -INFO - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-05-20 23:20:43,543 - eCares -INFO - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-05-20 23:20:56,528 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
+2022-05-20 23:21:11,254 - eCares -INFO - Patient List - RHIO Consent page successfully validated
+2022-05-20 23:21:25,254 - eCares -INFO - CCM - All Patients page successfully validated
