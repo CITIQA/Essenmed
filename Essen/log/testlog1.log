@@ -757,3 +757,27 @@
 2022-05-20 23:20:56,528 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
 2022-05-20 23:21:11,254 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
 2022-05-20 23:21:25,254 [main] INFO eCares - CCM - All Patients page successfully validated
+2022-06-10 13:51:04,412 [main] INFO eCares - Username is entered
+2022-06-10 13:51:04,521 [main] INFO eCares - Password is entered
+2022-06-10 13:51:09,691 [main] INFO eCares - Clicked on Sign In after entering Username (aditya905) and Password (Pass$123)
+2022-06-10 13:51:09,691 [main] INFO eCares - Login Successful
+2022-06-10 13:51:09,692 [main] INFO eCares - URL is Accessed with the defined Browser
+2022-06-10 13:51:10,352 [main] INFO eCares - Login Test Passed
+2022-06-10 13:51:27,195 [main] INFO eCares - Login Test Failed
+2022-06-10 13:51:39,445 [main] INFO eCares - Login Test Failed
+2022-06-10 13:51:52,002 [main] INFO eCares - Login Test Failed
+2022-06-10 13:51:58,152 [main] INFO eCares - Login Test Passed
+2022-06-10 13:52:25,349 [main] INFO eCares - Login Successful
+2022-06-10 13:52:29,362 [main] INFO eCares - Providing Users Details
+2022-06-10 13:52:33,673 [main] INFO eCares - Test Case Passed
+2022-06-10 13:52:43,745 [main] INFO eCares - login successfull
+2022-06-10 13:52:50,791 [main] INFO eCares - Entered into TOC page
+2022-06-10 13:53:00,721 [main] INFO eCares - Clicked on DOB calender
+2022-06-10 13:53:20,759 [main] INFO eCares - Login Successful
+2022-06-10 13:53:26,075 [main] INFO eCares - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-06-10 13:53:27,005 [main] INFO eCares - My WorkList Page Successfully Validated!!! Login Test Passed
+2022-06-10 13:53:39,560 [main] INFO eCares - Medical Enrollment Page Successfully Validated!!! Login Test Passed
+2022-06-10 13:53:53,414 [main] INFO eCares - Patient List - DCE All Patients Page Successfully Validated!!! Login Test Passed
+2022-06-10 13:54:06,401 [main] INFO eCares - Patient List - Health Home All Patients page Successfully Validated
+2022-06-10 13:54:21,145 [main] INFO eCares - Patient List - RHIO Consent page successfully validated
+2022-06-10 13:54:34,679 [main] INFO eCares - CCM - All Patients page successfully validated
