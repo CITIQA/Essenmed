@@ -2,6 +2,8 @@ package com.essen.testCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.RandomStringUtils;
@@ -55,7 +57,7 @@ public class BaseClass {
 		} else {
 			System.out.println("Entered browser doesnt match");
 		}
-
+	
 		logger = Logger.getLogger("eCares");
 		PropertyConfigurator.configure("Log4j.properties");
 		driver.manage().window().maximize();
@@ -71,9 +73,10 @@ public class BaseClass {
 	}
 
 	public void captureScreen(WebDriver driver, String tname) throws IOException {
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
+		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname +"-" +timeStamp +".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken for Reference");
 	}

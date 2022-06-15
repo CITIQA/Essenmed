@@ -781,3 +781,23 @@
 2022-06-10 13:54:06,401 - eCares -INFO - Patient List - Health Home All Patients page Successfully Validated
 2022-06-10 13:54:21,145 - eCares -INFO - Patient List - RHIO Consent page successfully validated
 2022-06-10 13:54:34,679 - eCares -INFO - CCM - All Patients page successfully validated
+2022-06-15 17:46:31,547 - eCares -INFO - Username is entered
+2022-06-15 17:46:31,738 - eCares -INFO - Password is entered
+2022-06-15 17:46:46,882 - eCares -INFO - Clicked on Sign In after entering Username (aditya905) and Password (Pass$123)
+2022-06-15 17:46:46,883 - eCares -INFO - Login Successful
+2022-06-15 17:46:46,883 - eCares -INFO - URL is Accessed with the defined Browser
+2022-06-15 17:46:54,672 - eCares -INFO - Login Test Passed
+2022-06-15 17:47:17,542 - eCares -INFO - Login Test Failed
+2022-06-15 17:47:33,956 - eCares -INFO - Login Test Failed
+2022-06-15 17:47:53,079 - eCares -INFO - Login Test Failed
+2022-06-15 17:50:12,766 - eCares -INFO - Username is entered
+2022-06-15 17:50:12,857 - eCares -INFO - Password is entered
+2022-06-15 17:50:33,489 - eCares -INFO - Clicked on Sign In after entering Username (aditya905) and Password (Pass$123)
+2022-06-15 17:50:33,490 - eCares -INFO - Login Successful
+2022-06-15 17:50:33,490 - eCares -INFO - URL is Accessed with the defined Browser
+2022-06-15 17:50:35,758 - eCares -INFO - Login Test Passed
+2022-06-15 17:50:57,432 - eCares -INFO - Login Test Failed
+2022-06-15 17:51:13,615 - eCares -INFO - Login Test Failed
+2022-06-15 17:51:35,230 - eCares -INFO - Login Test Failed
+2022-06-15 17:52:38,541 - eCares -INFO - Login Test Passed
+2022-06-15 17:52:53,356 - eCares -INFO - Login Successful
