@@ -41,9 +41,6 @@ public class MenuList
 		@CacheLookup
 		WebElement ccmAllPatients;
 		
-		@FindBy(id="LI_337")
-		@CacheLookup
-		WebElement ccmDashboard;
 		
 		public void clickConsentMenu()
 		{
@@ -67,9 +64,6 @@ public class MenuList
 			ChronicCareManagemnt.click();
 			ccmAllPatients.click();
 		}
-		public void clickCcmDashboard()
-		{
-			ccmDashboard.click();
-		}
+
 	
 }

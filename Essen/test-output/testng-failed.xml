@@ -7,20 +7,13 @@
   <test thread-count="5" name="eCares(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.essen.testCases.TC_LoginTestDDT_002">
+      <class name="com.essen.testCases.TC_PowerBIChecker">
         <methods>
           <include name="teardown"/>
+          <include name="CCMDashboard"/>
           <include name="setup"/>
-          <include name="LoginTestDDT" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.essen.testCases.TC_LoginTestDDT_002 -->
-      <class name="com.essen.testCases.TC_TOCHospitalization_004">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="TOCTest"/>
-        </methods>
-      </class> <!-- com.essen.testCases.TC_TOCHospitalization_004 -->
+      </class> <!-- com.essen.testCases.TC_PowerBIChecker -->
     </classes>
   </test> <!-- eCares(failed) -->
 </suite> <!-- Failed suite [Essen] -->
