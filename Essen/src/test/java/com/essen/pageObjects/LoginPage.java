@@ -32,6 +32,7 @@ public class LoginPage
 	WebElement BtnLogout;
 	
 	
+	
 	public void setUsername(String uname)
 	{
 		TxtUserName.clear();
