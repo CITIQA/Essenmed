@@ -7,13 +7,39 @@
   <test thread-count="5" name="eCares(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.essen.testCases.TC_PowerBIChecker">
+      <class name="com.essen.testCases.TC_PageChecker_005">
+        <methods>
+          <include name="consent_DCEAllPatients"/>
+          <include name="HH_EligiblePatients"/>
+          <include name="CCMAllPatients"/>
+          <include name="teardown"/>
+          <include name="medicalopenenrollpagechecker"/>
+          <include name="RhioConsent"/>
+          <include name="setup"/>
+          <include name="myworklistpagechecker"/>
+        </methods>
+      </class> <!-- com.essen.testCases.TC_PageChecker_005 -->
+      <class name="com.essen.testCases.TC_LoginTestDDT_002">
         <methods>
           <include name="teardown"/>
-          <include name="CCMDashboard"/>
+          <include name="setup"/>
+          <include name="LoginTestDDT" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.essen.testCases.TC_LoginTestDDT_002 -->
+      <class name="com.essen.testCases.TC_TOCHospitalization_004">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="TOCTest"/>
+        </methods>
+      </class> <!-- com.essen.testCases.TC_TOCHospitalization_004 -->
+      <class name="com.essen.testCases.TC_UserTest_003">
+        <methods>
+          <include name="teardown"/>
+          <include name="UserTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.essen.testCases.TC_PowerBIChecker -->
+      </class> <!-- com.essen.testCases.TC_UserTest_003 -->
     </classes>
   </test> <!-- eCares(failed) -->
 </suite> <!-- Failed suite [Essen] -->

@@ -19,11 +19,11 @@ public class UsersPage
 		PageFactory.initElements(rdriver, this);
 	}
 	
-	@FindBy(how = How.XPATH,using="//p[text()='Admin  ']")
+	@FindBy(how = How.XPATH,using="//li[@id='LI_16']")
 	@CacheLookup
 	WebElement AdminMainMenu;
 	
-	@FindBy(how= How.XPATH,using="//p[contains(text(),'Users')]")
+	@FindBy(how= How.XPATH,using="//li[@id='LI_20']")
 	@CacheLookup
 	WebElement UsersMainMenu;
 	

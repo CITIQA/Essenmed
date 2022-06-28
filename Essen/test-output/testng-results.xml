@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-16T13:27:48 IST" name="Essen" finished-at="2022-06-16T13:28:29 IST" duration-ms="40702">
+  <suite started-at="2022-06-28T13:56:03 IST" name="Essen" finished-at="2022-06-28T13:56:22 IST" duration-ms="19473">
     <groups>
     </groups>
-    <test started-at="2022-06-16T13:27:48 IST" name="eCares" finished-at="2022-06-16T13:28:29 IST" duration-ms="40702">
-      <class name="com.essen.testCases.TC_PowerBIChecker">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_PowerBIChecker@1151e434]" started-at="2022-06-16T13:27:48 IST" name="setup" finished-at="2022-06-16T13:27:52 IST" duration-ms="4066" status="PASS">
+    <test started-at="2022-06-28T13:56:03 IST" name="eCares" finished-at="2022-06-28T13:56:22 IST" duration-ms="19473">
+      <class name="com.essen.testCases.TC_UserTest_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.essen.testCases.TC_UserTest_003@1151e434]" started-at="2022-06-28T13:56:03 IST" name="setup" finished-at="2022-06-28T13:56:09 IST" duration-ms="5836" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CCMDashboard()[pri:1, instance:com.essen.testCases.TC_PowerBIChecker@1151e434]" started-at="2022-06-16T13:27:52 IST" name="CCMDashboard" description="To check page validation of CCM Dashboard" finished-at="2022-06-16T13:28:29 IST" duration-ms="36298" status="PASS">
+        <test-method signature="UserTest()[pri:0, instance:com.essen.testCases.TC_UserTest_003@1151e434]" started-at="2022-06-28T13:56:09 IST" name="UserTest" description="Creation of New Users Randomly" finished-at="2022-06-28T13:56:22 IST" duration-ms="13258" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CCMDashboard -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_PowerBIChecker@1151e434]" started-at="2022-06-16T13:28:29 IST" name="teardown" finished-at="2022-06-16T13:28:29 IST" duration-ms="149" status="PASS">
+        </test-method> <!-- UserTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.essen.testCases.TC_UserTest_003@1151e434]" started-at="2022-06-28T13:56:22 IST" name="teardown" finished-at="2022-06-28T13:56:22 IST" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.essen.testCases.TC_PowerBIChecker -->
+      </class> <!-- com.essen.testCases.TC_UserTest_003 -->
     </test> <!-- eCares -->
   </suite> <!-- Essen -->
 </testng-results>

@@ -803,3 +803,20 @@
 2022-06-15 17:52:53,356 - eCares -INFO - Login Successful
 2022-06-16 13:25:10,613 - eCares -INFO - CCM Dashboard validation fail
 2022-06-16 13:28:29,035 - eCares -INFO - CCM Dashboard page successfully validated
+2022-06-28 12:32:16,782 - eCares -INFO - Username is entered
+2022-06-28 12:32:16,970 - eCares -INFO - Password is entered
+2022-06-28 12:32:24,204 - eCares -INFO - Clicked on Sign In after entering Username (aditya905) and Password (Pass$123)
+2022-06-28 12:32:24,204 - eCares -INFO - Login Successful
+2022-06-28 12:32:24,205 - eCares -INFO - URL is Accessed with the defined Browser
+2022-06-28 12:32:24,880 - eCares -INFO - Login Test Passed
+2022-06-28 12:32:42,372 - eCares -INFO - Login Test Failed
+2022-06-28 12:32:54,817 - eCares -INFO - Login Test Failed
+2022-06-28 12:33:07,208 - eCares -INFO - Login Test Failed
+2022-06-28 12:33:17,310 - eCares -INFO - Login Test Passed
+2022-06-28 12:33:37,882 - eCares -INFO - Login Successful
+2022-06-28 12:34:10,541 - eCares -INFO - login successfull
+2022-06-28 12:34:41,171 - eCares -INFO - Login Successful
+2022-06-28 12:35:04,444 - eCares -INFO - Home Page Successfully Validated!!! Home Page Test Case Passed
+2022-06-28 13:56:14,440 - eCares -INFO - Login Successful
+2022-06-28 13:56:18,120 - eCares -INFO - Providing Users Details
+2022-06-28 13:56:22,555 - eCares -INFO - Test Case Passed
