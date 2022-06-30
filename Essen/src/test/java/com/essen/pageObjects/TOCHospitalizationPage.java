@@ -21,11 +21,12 @@ public class TOCHospitalizationPage {
 		PageFactory.initElements(rdriver, this);
 	}
 	
-	@FindBy(xpath="//p[contains(text(),'eCares  ')]")
+	//@FindBy(id="//li[@id='LI_58']//")
+	@FindBy(xpath="//li[@id='LI_58']//span[contains(text(),'eCares  ')]")
 	@CacheLookup
 	WebElement eCaresMenu;
 	
-	@FindBy(xpath="//p[contains(text(),'Post Acute Care  ')]")
+	@FindBy(xpath="//li[@id='LI_164']//span[contains(text(),'Post Acute Care  ')]")
 	@CacheLookup
 	WebElement postAcuteCareMenu;
 	
@@ -49,7 +50,7 @@ public class TOCHospitalizationPage {
 	@CacheLookup
 	WebElement LastName;
 	
-	@FindBy(xpath="//input[@id='txtDOB']//following::span[1]//span[1]")
+	@FindBy(xpath="//input[@id='DOB']//following::span[1]//span[1]")
 	@CacheLookup
 	WebElement DOB;
 	
@@ -77,7 +78,8 @@ public class TOCHospitalizationPage {
 	@CacheLookup
 	WebElement PatientPhoneNumber;
 	
-	@FindBy(id="txtSocialSecurityNumber")
+	//@FindBy(id="txtSocialSecurityNumber")
+	@FindBy(xpath="//input[@id='txtPatientPhoneNumber']")
 	@CacheLookup
 	WebElement SocialSecurityNumber;
 	
@@ -97,7 +99,7 @@ public class TOCHospitalizationPage {
 	@CacheLookup
 	WebElement admissionType;
 	
-	@FindBy(xpath="//span[@aria-controls=\"txtAdmitDate_dateview\"]//child::span[1]")
+	@FindBy(xpath="//span[@aria-controls=\"AdmitDate_dateview\"]//child::span[1]")
 	@CacheLookup
 	WebElement AdmitDate;
 	
@@ -107,7 +109,7 @@ public class TOCHospitalizationPage {
 	
 	
 	
-	@FindBy(xpath="//span[@aria-controls=\"txtDischargeDate_dateview\"]//child::span[1]")
+	@FindBy(xpath="//span[@aria-controls=\"DischargeDate_dateview\"]//child::span[1]")
 	@CacheLookup
 	WebElement DischargeDate;
 	
@@ -202,7 +204,9 @@ public class TOCHospitalizationPage {
 	
 	public void EnterPatientPhoneNumber()
 	{
-		PatientPhoneNumber.sendKeys("9"+RandomStringUtils.randomNumeric(9));
+		PatientPhoneNumber.click();
+		PatientPhoneNumber.sendKeys(RandomStringUtils.randomNumeric(10));
+		//PatientPhoneNumber.sendKeys("9"+RandomStringUtils.randomNumeric(9));
 	}
 	
 	public void EnterSocialSecurityNo()
