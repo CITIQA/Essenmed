@@ -49,7 +49,7 @@ public class SSRS {
 		Appointments.click();
 		KioskCheckInsReport.click();
 	}
-	public void WowReport()
+/*	public void WowReport()
 	{
 		//ReportsMenu.click();
 		//Appointments.click();
@@ -60,5 +60,5 @@ public class SSRS {
 		//ReportsMenu.click();
 		//Appointments.click();
 		NoShowBookedAppointmentsReport.click();
-	}
+	} */
 }

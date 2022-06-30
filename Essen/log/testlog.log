@@ -820,3 +820,17 @@
 2022-06-28 13:56:14,440 - eCares -INFO - Login Successful
 2022-06-28 13:56:18,120 - eCares -INFO - Providing Users Details
 2022-06-28 13:56:22,555 - eCares -INFO - Test Case Passed
+2022-06-29 11:49:01,785 - eCares -INFO - Login Successful
+2022-06-29 11:49:10,850 - eCares -INFO - Providing Users Details
+2022-06-29 11:49:15,347 - eCares -INFO - Test Case Passed
+2022-06-29 11:49:34,376 - eCares -INFO - Explicit wait
+2022-06-29 11:59:38,675 - eCares -INFO - Login Successful
+2022-06-29 11:59:42,159 - eCares -INFO - Providing Users Details
+2022-06-29 11:59:46,378 - eCares -INFO - Test Case Passed
+2022-06-29 12:00:08,171 - eCares -INFO - Explicit wait
+2022-06-29 12:00:08,232 - eCares -INFO - Kiosk Check ins report has been verified
+2022-06-29 12:02:20,355 - eCares -INFO - Explicit wait
+2022-06-29 12:02:20,420 - eCares -INFO - Kiosk Check ins report has been verified
+2022-06-29 12:03:23,006 - eCares -INFO - Explicit wait
+2022-06-29 12:03:23,086 - eCares -INFO - Kiosk Check ins report has been verified
+2022-06-30 11:54:17,968 - eCares -INFO - Kiosk Check ins report has been verified
