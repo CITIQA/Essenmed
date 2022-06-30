@@ -35,7 +35,7 @@ public class TC_SSRSChecker extends BaseClass {
 		
 		//Waiting for the Button to be Clickable
 		WebDriverWait Kioskwait=new WebDriverWait(driver, 30);
-		Kioskwait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='rptViewerDetail_ctl04_ctl00']")));
+		Kioskwait.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@id='rptViewerDetail_ctl05_ctl04_ctl00_ButtonImg']")));
 		
 		//Checking whether the Report is Opened or Not
 		if(driver.findElement(By.xpath("//div[contains(text(),'KIOSK REPORT')]")).getText().contains("KIOSK REPORT"))
@@ -55,7 +55,6 @@ public class TC_SSRSChecker extends BaseClass {
 		
 		//Switching back to Parent Frames
 		driver.switchTo().parentFrame();
-	    driver.switchTo().defaultContent();
 	}
 
 }

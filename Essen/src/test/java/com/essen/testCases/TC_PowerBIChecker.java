@@ -28,7 +28,7 @@ public class TC_PowerBIChecker extends BaseClass
 		powerbi.clickCCMMainMenu();
 		powerbi.clickCcmDashboard();
 		
-		WebDriverWait wait=new WebDriverWait(driver,15);
+		WebDriverWait wait=new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"k-loading-image\"]")));
 		SoftAssert softasserts= new SoftAssert();
 
