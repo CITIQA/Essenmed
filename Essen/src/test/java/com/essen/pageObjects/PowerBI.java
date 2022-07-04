@@ -16,6 +16,26 @@ WebDriver ldriver;
 		PageFactory.initElements(rdriver, this);
 	}
 	
+	@FindBy(id="LI_58")
+	@CacheLookup
+	WebElement eCaresMainMenu;
+	
+	@FindBy(id="LI_151")
+	@CacheLookup
+	WebElement ProviderMainMenu;
+	
+	@FindBy(id="LI_147")
+	@CacheLookup
+	WebElement Providerpanel;
+	
+	@FindBy(id="LI_152")
+	@CacheLookup
+	WebElement FacilityMainMenu;
+	
+	@FindBy(id="LI_153")
+	@CacheLookup
+	WebElement PatientMainMenu;	
+	
 	@FindBy(id="LI_316")
 	@CacheLookup
 	WebElement CCMMainMenu;
@@ -24,14 +44,31 @@ WebDriver ldriver;
 	@CacheLookup
 	WebElement ccmDashboard;
 	
+
+	public void eCaresMainmenu()
+	{
+		eCaresMainMenu.click();
+	}
 	
-	public void clickCCMMainMenu()
+	public void providermainmenu()
+	{
+		ProviderMainMenu.click();
+	}
+	
+	public void providerpanel()
+	{
+		Providerpanel.click();
+	}
+	
+	public void clickChronicCareManagementMainMenu()
 	{
 		CCMMainMenu.click();
 	}
 	
-	public void clickCcmDashboard()
+	public void ClickCCMDashboardMenu()
 	{
 		ccmDashboard.click();
 	}
+	
+
 }
