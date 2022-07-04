@@ -20,6 +20,7 @@ WebDriver ldriver;
 	@CacheLookup
 	WebElement eCaresMainMenu;
 	
+	//************************* PROVIDER MENU STARTS HERE *************************//
 	@FindBy(id="LI_151")
 	@CacheLookup
 	WebElement ProviderMainMenu;
@@ -27,7 +28,9 @@ WebDriver ldriver;
 	@FindBy(id="LI_147")
 	@CacheLookup
 	WebElement Providerpanel;
+	//************************* PROVIDER MENU ENDS HERE  *************************//
 	
+	//************************* FACILITY MENU STARTS HERE *************************//
 	@FindBy(id="LI_152")
 	@CacheLookup
 	WebElement FacilityMainMenu;
@@ -35,6 +38,20 @@ WebDriver ldriver;
 	@FindBy(id="LI_154")
 	@CacheLookup
 	WebElement Facilitypanel;
+	//************************* FACILITY MENU ENDS HERE *************************//
+	
+	//************************* POST ACUTE CARE MENU STARTS HERE  ***************//
+	@FindBy(id="LI_164")
+	@CacheLookup
+	WebElement PostAcuteCareMainMenu;
+	
+	@FindBy(id="LI_214")
+	@CacheLookup
+	WebElement PostAcuteCareDashboard;
+	//************************* POST ACUTE CARE MENU ENDS HERE  ***************//
+	
+	
+	
 	
 	@FindBy(id="LI_153")
 	@CacheLookup
@@ -72,6 +89,16 @@ WebDriver ldriver;
 	public void facilitypanel()
 	{
 		Facilitypanel.click();
+	}
+	
+	public void PostAcuteCareMainMenu()
+	{
+		PostAcuteCareMainMenu.click();
+	}
+	
+	public void PostAcuteCareDashboard()
+	{
+		PostAcuteCareDashboard.click();
 	}
 	
 	public void clickChronicCareManagementMainMenu()
