@@ -1,6 +1,7 @@
 package com.essen.testCases;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -59,19 +60,73 @@ public class TC_PowerBIChecker extends BaseClass
 		{
 			softasserts.assertTrue(false);
 			captureScreen(driver, "ProviderPanelDashboard");
-			logger.info("Provider Panel Dashboard validation fail");
+			logger.info("Provider Panel Dashboard validation failed");
 			softasserts.assertAll();
 			
 		}
 		
+		driver.switchTo().parentFrame();
+		
 	}
 	
-/*
-	@Test(description = "To Validate the scenario of CCM Dashboard", priority = 2)
+	@Test(description = "To validate the scenario of Facility Panel Dashboard",priority = 2)
+	public void FacilityPanelDashboard() throws InterruptedException, IOException
+	{
+		
+		SoftAssert softasserts= new SoftAssert();
+		
+		PowerBI powerbi= new PowerBI(driver);
+		powerbi.eCaresMainmenu();
+		powerbi.facilitymainmenu();
+		powerbi.facilitypanel();
+		
+		WebDriverWait wait=new WebDriverWait(driver,20);
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='btnSaveCheckedColumns']")));
+		
+		String BeforeXpath="//div[@id='FacilityPanelGrid']/table/tbody/tr[";
+		String AfterXpath="]/td[2]";
+		String DashboardClickXpath="/preceding-sibling::td[1]/div/a[2]";
+		
+		
+		for(int i=1;i<=10;i++)
+		{
+			if(driver.findElement(By.xpath(BeforeXpath+i+AfterXpath)).getText().contains("5665 Metro Urgicare"))
+			{
+				driver.findElement(By.xpath(BeforeXpath+i+AfterXpath+DashboardClickXpath)).click();	
+				break;
+			}
+		}
+		
+		driver.switchTo().frame(0);
+		
+		WebDriverWait facilitypanelwait=new WebDriverWait(driver,20);
+		facilitypanelwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@title='Patient Count by CAP vs FFS']/parent::div")));
+		
+		if(driver.findElement(By.xpath("//h3[contains(text(),'Total Patients as Facility Panel')]")).getText().contains("Facility Panel"))
+		{
+			softasserts.assertTrue(true);
+			logger.info("Facility Panel Dashboard page successfully validated");
+			softasserts.assertAll();
+		}
+		else
+		{
+			softasserts.assertTrue(false);
+			captureScreen(driver, "ProviderPanelDashboard");
+			logger.info("Facility Panel Dashboard validation failed");
+			softasserts.assertAll();
+			
+		}
+		
+		driver.switchTo().parentFrame();
+		
+	}
+	
+
+	@Test(description = "To Validate the scenario of CCM Dashboard", priority = 3)
 	public void CCMDashboard() throws Exception 
 	{
 		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
 		PowerBI powerbi= new PowerBI(driver);
 		powerbi.clickChronicCareManagementMainMenu();
@@ -98,7 +153,7 @@ public class TC_PowerBIChecker extends BaseClass
 			
 		}
 	}
-	*/
+	
 	
 	
 	

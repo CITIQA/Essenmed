@@ -32,6 +32,10 @@ WebDriver ldriver;
 	@CacheLookup
 	WebElement FacilityMainMenu;
 	
+	@FindBy(id="LI_154")
+	@CacheLookup
+	WebElement Facilitypanel;
+	
 	@FindBy(id="LI_153")
 	@CacheLookup
 	WebElement PatientMainMenu;	
@@ -58,6 +62,16 @@ WebDriver ldriver;
 	public void providerpanel()
 	{
 		Providerpanel.click();
+	}
+	
+	public void facilitymainmenu()
+	{
+		FacilityMainMenu.click();
+	}
+	
+	public void facilitypanel()
+	{
+		Facilitypanel.click();
 	}
 	
 	public void clickChronicCareManagementMainMenu()
